@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-12 col-lg-6">
+        {{ fields|raw }}
+        <div class="table-responsive service-details">
+            <table class="table table-sm m-lg-0">
+                <thead>
+                <tr>
+                    {% for id, title in columns %}
+                        <th id="column_{{ id|esc_attr }}" data-name="{{ id|esc_attr }}">{{ title|raw }}</th>
+                    {% endfor %}
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            {{ get_spinner()|raw }}
+        </div>
+    </div>
+    <div class="col-12 col-lg-6 pb-4 pb-lg-0">
+        <div class="bg-gray-100 rounded p-5 mb-3">
+            <div class="h5">{{ backlink_title|raw }}</div>
+            <div class="my-2 border border-gray-200 rounded">
+                {{ backlink_image|raw }}
+            </div>
+            {{ backlink_alert|raw }}
+        </div>
+    </div>
+</div>
