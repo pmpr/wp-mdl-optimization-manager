@@ -6,12 +6,7 @@
             {% if loop.first %}
                 <div class="d-flex justify-content-between flex-column flex-md-row">
                     {{ guid|raw }}
-                    <a href="#" class="btn btn-info px-5">
-                        {{ get_icon(wordpress_icon, {
-                            class: 'icon-white'
-                        }, 1)|raw }}
-                        <span class="pl-2">{{ install_plugin_text|raw }}</span>
-                    </a>
+                    {{ plugin_download|raw }}
                 </div>
             {% else %}
                 {{ guid|raw }}
