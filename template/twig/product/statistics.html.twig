@@ -1,0 +1,37 @@
+{% if items is not empty %}
+    {% if title is not empty %}
+        <div class="h5 mb-2">{{ title|raw }}</div>
+    {% endif %}
+    {% if description is not empty %}
+        <div class="mb-4 no-margin">{{ description|raw }}</div>
+    {% endif %}
+    <table class="table mb-0">
+        <thead>
+        <tr>
+            {% for key, title in columns %}
+                <th{% if key is not same as('title') %} class="text-center"{% endif %}>{{ title|raw }}</th>
+            {% endfor %}
+        </tr>
+        </thead>
+        <tbody>
+        {% for item in items %}
+            <tr>
+                {% for key, title in columns %}
+                    <td class="text-center">
+                        {% if key is same as('title') %}
+                            <div class="d-flex">
+                                {{ get_icon(item.icon, {class: 'd-none d-md-block'})|raw }}
+                                <span class="ml-0 ml-md-2">{{ item.title|raw }}</span>
+                            </div>
+                        {% else %}
+                            <span class="h5 mb-0 text-success">
+                                {{ item[key]|number|raw }}
+                            </span>
+                        {% endif %}
+                    </td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endif %}
