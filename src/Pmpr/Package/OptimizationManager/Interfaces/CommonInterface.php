@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             61c032485d0af             |
+    |             61c039b91a52c             |
     |_______________________________________|
 */
- namespace Pmpr\Package\OptimizationManager\Interfaces; interface CommonInterface { const LEVEL_1 = "\x6c\145\166\145\x6c\55\61"; const LEVEL_2 = "\154\x65\166\x65\x6c\x2d\62"; }
+ namespace Pmpr\Package\OptimizationManager\Interfaces; interface CommonInterface { const LEVEL_1 = "\154\x65\166\145\x6c\55\61"; const LEVEL_2 = "\x6c\145\x76\145\154\x2d\x32"; }
