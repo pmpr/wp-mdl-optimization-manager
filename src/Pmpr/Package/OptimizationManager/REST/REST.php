@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             61eed200b9213             |
+    |             6221373b04e1a             |
     |_______________________________________|
 */
- namespace Pmpr\Package\OptimizationManager\REST; use Pmpr\Common\Foundation\REST\RESTRegister; class REST extends RESTRegister { public function gigwcakmiyayoigw() { $this->ogyceaekywowkqsc(Page::symcgieuakksimmu())->ogyceaekywowkqsc(Heroku::symcgieuakksimmu())->ogyceaekywowkqsc(Budget::symcgieuakksimmu()); } }
+ namespace Pmpr\Package\OptimizationManager\REST; use Pmpr\Common\Foundation\REST\RESTRegister; class REST extends RESTRegister { public function gigwcakmiyayoigw() { $this->ogyceaekywowkqsc(Page::symcgieuakksimmu())->ogyceaekywowkqsc(Remote::symcgieuakksimmu())->ogyceaekywowkqsc(Budget::symcgieuakksimmu()); } }
