@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization Manager\n"
-"POT-Creation-Date: 2021-12-13 16:58+0330\n"
-"PO-Revision-Date: 2021-12-13 16:58+0330\n"
-"Last-Translator:  Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
+"POT-Creation-Date: 2022-03-04 01:18+0330\n"
+"PO-Revision-Date: 2022-03-04 01:19+0330\n"
+"Last-Translator: PMPR <pmpr.ir@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "آیتم سفارش"
 
 #: src/Pmpr/Package/OptimizationManager/Model/Budget.php:50
 #: src/Pmpr/Package/OptimizationManager/Model/Page.php:47
-#: src/Pmpr/Package/OptimizationManager/OptimizationManager.php:51
+#: src/Pmpr/Package/OptimizationManager/OptimizationManager.php:61
 msgid "Level"
 msgstr "سطح"
 
@@ -112,18 +112,18 @@ msgstr "جمع بودجه‌ معتبر"
 msgid "Last Expire Date"
 msgstr "آخرین تاریخ انقضا"
 
-#: src/Pmpr/Package/OptimizationManager/Model/Evaluation.php:27
+#: src/Pmpr/Package/OptimizationManager/Model/Evaluation.php:22
 msgid "Evaluation"
 msgstr "اندازه گیری"
 
-#: src/Pmpr/Package/OptimizationManager/Model/Evaluation.php:28
+#: src/Pmpr/Package/OptimizationManager/Model/Evaluation.php:23
 #: src/Pmpr/Package/OptimizationManager/Model/Page.php:55
 msgid "Evaluations"
 msgstr "اندازه گیری‌ها"
 
 #: src/Pmpr/Package/OptimizationManager/Model/Page.php:27
-#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:57
-#: src/Pmpr/Package/OptimizationManager/Model/Service.php:41
+#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:53
+#: src/Pmpr/Package/OptimizationManager/Model/Service.php:39
 msgid "Page"
 msgstr "صفحه"
 
@@ -136,7 +136,7 @@ msgid "Status"
 msgstr "وضعیت"
 
 #: src/Pmpr/Package/OptimizationManager/Model/Page.php:59
-#: src/Pmpr/Package/OptimizationManager/Model/Service.php:25
+#: src/Pmpr/Package/OptimizationManager/Model/Service.php:23
 msgid "Services"
 msgstr "خدمت دهی‌ها"
 
@@ -156,51 +156,51 @@ msgstr "غیر فعال"
 msgid "Ignored"
 msgstr "رها شده"
 
-#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:32
+#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:28
 msgid "Page Log"
 msgstr "گزارش صفحه"
 
-#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:33
+#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:29
 msgid "Page Logs"
 msgstr "گزارشات صفحه"
 
-#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:43
+#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:39
 msgid "Field"
 msgstr "فیلد"
 
-#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:46
+#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:42
 msgid "Old Value"
 msgstr "مقدار قدیمی"
 
-#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:49
+#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:45
 msgid "New Value"
 msgstr "مقدار جدید"
 
-#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:53
+#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:49
 msgid "User"
 msgstr "کاربر"
 
-#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:70
+#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:66
 msgid "Admin"
 msgstr "مدیر"
 
-#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:71
+#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:67
 msgid "System"
 msgstr "سیستم"
 
-#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:72
+#: src/Pmpr/Package/OptimizationManager/Model/PageLog.php:68
 msgid "Customer"
 msgstr "مشتری"
 
-#: src/Pmpr/Package/OptimizationManager/Model/Service.php:24
+#: src/Pmpr/Package/OptimizationManager/Model/Service.php:22
 msgid "Service"
 msgstr "خدمت دهی"
 
-#: src/Pmpr/Package/OptimizationManager/Model/Service.php:37
+#: src/Pmpr/Package/OptimizationManager/Model/Service.php:35
 msgid "Status Code"
 msgstr "کد وضعیت"
 
-#: src/Pmpr/Package/OptimizationManager/OptimizationManager.php:104
+#: src/Pmpr/Package/OptimizationManager/OptimizationManager.php:106
 msgid "Optimization Manager"
 msgstr "م افزایش سرعت"
 
@@ -233,40 +233,38 @@ msgstr "صفحات ماژول افزایش سرعت شما"
 msgid "You dont't have any domain that has a optimization module."
 msgstr "شما هیچ‌ دامنه‌ای که روی آن ماژول افزایش سرعت فعال باشد، ندارید."
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:83
+#: src/Pmpr/Package/OptimizationManager/Product.php:101
 #, php-format
 msgid ""
 "domain %s, already has free version, please add more variation to continue"
 msgstr ""
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:92
-#, fuzzy
-#| msgid "Variations"
+#: src/Pmpr/Package/OptimizationManager/Product.php:108
 msgid "No variations selected"
-msgstr "تغییرات"
+msgstr "هیج متغییری انتخاب نشده است"
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:135
+#: src/Pmpr/Package/OptimizationManager/Product.php:177
 #, php-format
 msgid "Can not create opt domain: %s"
 msgstr "قارد به ایجاد دامنه افزایش سرعت نیستیم: %s"
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:190
+#: src/Pmpr/Package/OptimizationManager/Product.php:232
 msgid "Budget can't be add, some require fields not set."
 msgstr "برخی پارامتر‌های ضروری برای ایجاد بودجه یافت نشد."
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:264
+#: src/Pmpr/Package/OptimizationManager/Product.php:306
 msgid "Start Date is not a valid date."
 msgstr "تاریخ شروع استفاده از بودجه معتبر نیست."
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:265
+#: src/Pmpr/Package/OptimizationManager/Product.php:307
 msgid "Please fill start date."
 msgstr "لطفا تاریخ شروع استفاده از بودجه را مشخص کنید."
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:266
+#: src/Pmpr/Package/OptimizationManager/Product.php:308
 msgid "You Can not use passed date for start date."
 msgstr "شما نمی‌توانید از تاریخ‌های گذشته برای تاریخ شروع بودجه استفاده کنید."
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:336
+#: src/Pmpr/Package/OptimizationManager/Product.php:378
 msgid "Start Budget Date"
 msgstr "تاریخ شروع استفاده از بودجه"
 
@@ -294,22 +292,6 @@ msgstr "درخواست شما معتبر نیست"
 #: src/Pmpr/Package/OptimizationManager/REST/Common.php:82
 msgid "Domain not valid"
 msgstr "دامنه معتبر نیست"
-
-#: src/Pmpr/Package/OptimizationManager/REST/Heroku.php:66
-msgid "Request is valid"
-msgstr "درخواست معتبر است"
-
-#: src/Pmpr/Package/OptimizationManager/REST/Heroku.php:71
-msgid "Your request permalinks is not valid."
-msgstr "لینک‌های درخواستی شما معتبر نیستند."
-
-#: src/Pmpr/Package/OptimizationManager/REST/Heroku.php:75
-msgid "Require parameters is missing or uncorrected"
-msgstr "پارامتر‌های ضروری یافت نشدند و یا اشتباه هستند"
-
-#: src/Pmpr/Package/OptimizationManager/REST/Heroku.php:98
-msgid "apps is empty, please contact with admin"
-msgstr "لیست اپلیکیشن‌ها خالی است، لطفا با ادمین تماس بگیرید"
 
 #: src/Pmpr/Package/OptimizationManager/REST/Page.php:90
 msgid "Page added successfully."
@@ -349,6 +331,22 @@ msgid "You can't do this, because you don't have any budget."
 msgstr ""
 "شما قادر به انجام این عملیات نیستید، زیرا بودجه شما برای این کار کافی نیست."
 
+#: src/Pmpr/Package/OptimizationManager/REST/Remote.php:66
+msgid "Request is valid"
+msgstr "درخواست معتبر است"
+
+#: src/Pmpr/Package/OptimizationManager/REST/Remote.php:71
+msgid "Your request permalinks is not valid."
+msgstr "لینک‌های درخواستی شما معتبر نیستند."
+
+#: src/Pmpr/Package/OptimizationManager/REST/Remote.php:75
+msgid "Require parameters is missing or uncorrected"
+msgstr "پارامتر‌های ضروری یافت نشدند و یا اشتباه هستند"
+
+#: src/Pmpr/Package/OptimizationManager/REST/Remote.php:98
+msgid "apps is empty, please contact with admin"
+msgstr "لیست اپلیکیشن‌ها خالی است، لطفا با ادمین تماس بگیرید"
+
 #: src/Pmpr/Package/OptimizationManager/Setting.php:45
 msgid "Optimization Manager Setting"
 msgstr "تنظیمات مدیریت افزایش سرعت"
@@ -367,42 +365,43 @@ msgid "Related Component"
 msgstr "کامپوننت مرتبط"
 
 #: src/Pmpr/Package/OptimizationManager/Setting.php:75
-#, fuzzy
-#| msgid "Variations"
 msgid "Free Variation Alert"
-msgstr "تغییرات"
+msgstr "اعلان نسخه رایگان"
 
 #: src/Pmpr/Package/OptimizationManager/Setting.php:80
-msgid "heroku Apps"
-msgstr "اپلیکیشن‌های هروکو"
+msgid "Remote Apps"
+msgstr "اپلیکیشن‌های ریموت سرور"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:84
+#: src/Pmpr/Package/OptimizationManager/Setting.php:81
+msgid "Used for extract critical css and preloading process."
+msgstr ""
+
+#: src/Pmpr/Package/OptimizationManager/Setting.php:85
 msgid "App name"
 msgstr "نام اپلیکیشن"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:85
-#, php-format
-msgid "Just write app name and no need to whole url: %s"
-msgstr "فقط نام اپلیکیشن را بنویسید و نیازی به نوشتن کل لینک نیست: %s"
+#: src/Pmpr/Package/OptimizationManager/Setting.php:86
+msgid "Write full url"
+msgstr ""
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:92
+#: src/Pmpr/Package/OptimizationManager/Setting.php:93
 msgid "Statistics"
 msgstr "آمار و ارقام"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:96
-#: src/Pmpr/Package/OptimizationManager/Setting.php:110
+#: src/Pmpr/Package/OptimizationManager/Setting.php:97
+#: src/Pmpr/Package/OptimizationManager/Setting.php:111
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:101
+#: src/Pmpr/Package/OptimizationManager/Setting.php:102
 msgid "Description"
 msgstr ""
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:106
+#: src/Pmpr/Package/OptimizationManager/Setting.php:107
 msgid "Items"
 msgstr "آیتم‌ها"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:115
+#: src/Pmpr/Package/OptimizationManager/Setting.php:116
 msgid "Icon"
 msgstr "آیکون"
 
@@ -413,6 +412,9 @@ msgstr "سطح ۱"
 #: src/Pmpr/Package/OptimizationManager/Traits/CommonTrait.php:23
 msgid "Level 2"
 msgstr "سطح ۲"
+
+#~ msgid "Just write app name and no need to whole url: %s"
+#~ msgstr "فقط نام اپلیکیشن را بنویسید و نیازی به نوشتن کل لینک نیست: %s"
 
 #~ msgid "Download and install wordpress plugin."
 #~ msgstr "دانلود و نصب افزونه وردپرس."
