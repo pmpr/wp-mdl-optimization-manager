@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6226724b3e0a7             |
+    |             622dbd39eab4a             |
     |_______________________________________|
 */
  namespace Pmpr\Package\OptimizationManager; use Pmpr\Common\Foundation\Container\Container as BaseClass; use Pmpr\Package\OptimizationManager\Interfaces\CommonInterface; use Pmpr\Package\OptimizationManager\Traits\CommonTrait; abstract class Container extends BaseClass implements CommonInterface { use CommonTrait; public function __construct() { $this->settingObj = Setting::symcgieuakksimmu(); parent::__construct(); } public function cqusmgskowmesgcg() { return $this->weysguygiseoukqw(Setting::ocwsuwyiiasigqaa, 0); } }
