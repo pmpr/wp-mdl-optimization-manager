@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization Manager\n"
-"POT-Creation-Date: 2022-03-04 01:18+0330\n"
-"PO-Revision-Date: 2022-03-04 01:19+0330\n"
+"POT-Creation-Date: 2022-03-21 14:40+0330\n"
+"PO-Revision-Date: 2022-03-21 14:40+0330\n"
 "Last-Translator: PMPR <pmpr.ir@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Source-Language: en\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -48,12 +48,13 @@ msgstr "آیتم سفارش"
 #: src/Pmpr/Package/OptimizationManager/Model/Budget.php:50
 #: src/Pmpr/Package/OptimizationManager/Model/Page.php:47
 #: src/Pmpr/Package/OptimizationManager/OptimizationManager.php:61
+#: src/Pmpr/Package/OptimizationManager/Panel/Panel.php:65
 msgid "Level"
 msgstr "سطح"
 
 #: src/Pmpr/Package/OptimizationManager/Model/Budget.php:54
 #: src/Pmpr/Package/OptimizationManager/Model/Domain.php:112
-#: src/Pmpr/Package/OptimizationManager/Panel/Panel.php:65
+#: src/Pmpr/Package/OptimizationManager/Panel/Panel.php:66
 msgid "Number of Pages"
 msgstr "تعداد صفحه"
 
@@ -229,42 +230,42 @@ msgstr "بودجه‌های ماژول افزایش سرعت شما"
 msgid "Your Optimization Module Pages"
 msgstr "صفحات ماژول افزایش سرعت شما"
 
-#: src/Pmpr/Package/OptimizationManager/Panel/Panel.php:68
+#: src/Pmpr/Package/OptimizationManager/Panel/Panel.php:69
 msgid "You dont't have any domain that has a optimization module."
 msgstr "شما هیچ‌ دامنه‌ای که روی آن ماژول افزایش سرعت فعال باشد، ندارید."
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:101
+#: src/Pmpr/Package/OptimizationManager/Product.php:113
 #, php-format
 msgid ""
 "domain %s, already has free version, please add more variation to continue"
 msgstr ""
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:108
+#: src/Pmpr/Package/OptimizationManager/Product.php:120
 msgid "No variations selected"
 msgstr "هیج متغییری انتخاب نشده است"
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:177
+#: src/Pmpr/Package/OptimizationManager/Product.php:200
 #, php-format
 msgid "Can not create opt domain: %s"
 msgstr "قارد به ایجاد دامنه افزایش سرعت نیستیم: %s"
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:232
+#: src/Pmpr/Package/OptimizationManager/Product.php:255
 msgid "Budget can't be add, some require fields not set."
 msgstr "برخی پارامتر‌های ضروری برای ایجاد بودجه یافت نشد."
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:306
+#: src/Pmpr/Package/OptimizationManager/Product.php:327
 msgid "Start Date is not a valid date."
 msgstr "تاریخ شروع استفاده از بودجه معتبر نیست."
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:307
+#: src/Pmpr/Package/OptimizationManager/Product.php:328
 msgid "Please fill start date."
 msgstr "لطفا تاریخ شروع استفاده از بودجه را مشخص کنید."
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:308
+#: src/Pmpr/Package/OptimizationManager/Product.php:329
 msgid "You Can not use passed date for start date."
 msgstr "شما نمی‌توانید از تاریخ‌های گذشته برای تاریخ شروع بودجه استفاده کنید."
 
-#: src/Pmpr/Package/OptimizationManager/Product.php:378
+#: src/Pmpr/Package/OptimizationManager/Product.php:400
 msgid "Start Budget Date"
 msgstr "تاریخ شروع استفاده از بودجه"
 
@@ -347,61 +348,61 @@ msgstr "پارامتر‌های ضروری یافت نشدند و یا اشتب�
 msgid "apps is empty, please contact with admin"
 msgstr "لیست اپلیکیشن‌ها خالی است، لطفا با ادمین تماس بگیرید"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:45
+#: src/Pmpr/Package/OptimizationManager/Setting.php:44
 msgid "Optimization Manager Setting"
 msgstr "تنظیمات مدیریت افزایش سرعت"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:46
+#: src/Pmpr/Package/OptimizationManager/Setting.php:45
 msgid "Setting"
 msgstr "تنظیمات"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:62
-#: src/Pmpr/Package/OptimizationManager/Setting.php:66
+#: src/Pmpr/Package/OptimizationManager/Setting.php:61
+#: src/Pmpr/Package/OptimizationManager/Setting.php:65
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:70
+#: src/Pmpr/Package/OptimizationManager/Setting.php:69
 msgid "Related Component"
 msgstr "کامپوننت مرتبط"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:75
+#: src/Pmpr/Package/OptimizationManager/Setting.php:74
 msgid "Free Variation Alert"
 msgstr "اعلان نسخه رایگان"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:80
+#: src/Pmpr/Package/OptimizationManager/Setting.php:79
 msgid "Remote Apps"
 msgstr "اپلیکیشن‌های ریموت سرور"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:81
-msgid "Used for extract critical css and preloading process."
-msgstr ""
-
-#: src/Pmpr/Package/OptimizationManager/Setting.php:85
+#: src/Pmpr/Package/OptimizationManager/Setting.php:83
 msgid "App name"
 msgstr "نام اپلیکیشن"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:86
+#: src/Pmpr/Package/OptimizationManager/Setting.php:84
 msgid "Write full url"
 msgstr ""
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:93
+#: src/Pmpr/Package/OptimizationManager/Setting.php:86
+msgid "Used for extract critical css and preloading process."
+msgstr ""
+
+#: src/Pmpr/Package/OptimizationManager/Setting.php:91
 msgid "Statistics"
 msgstr "آمار و ارقام"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:97
-#: src/Pmpr/Package/OptimizationManager/Setting.php:111
+#: src/Pmpr/Package/OptimizationManager/Setting.php:95
+#: src/Pmpr/Package/OptimizationManager/Setting.php:109
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:102
+#: src/Pmpr/Package/OptimizationManager/Setting.php:100
 msgid "Description"
 msgstr ""
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:107
+#: src/Pmpr/Package/OptimizationManager/Setting.php:105
 msgid "Items"
 msgstr "آیتم‌ها"
 
-#: src/Pmpr/Package/OptimizationManager/Setting.php:116
+#: src/Pmpr/Package/OptimizationManager/Setting.php:114
 msgid "Icon"
 msgstr "آیکون"
 

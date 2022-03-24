@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             622dbd39eab4a             |
+    |             623bbbde74ca0             |
     |_______________________________________|
 */
- namespace Pmpr\Package\OptimizationManager\Interfaces; interface CommonInterface { const yygyasgygkeqacou = "\154\x65\x76\x65\154\55\x31"; const cwoackywkgsameww = "\x6c\145\x76\x65\154\x2d\x32"; }
+ namespace Pmpr\Package\OptimizationManager\Interfaces; interface CommonInterface { const yygyasgygkeqacou = "\x6c\x65\166\145\x6c\55\61"; const cwoackywkgsameww = "\154\145\x76\x65\x6c\55\62"; }
