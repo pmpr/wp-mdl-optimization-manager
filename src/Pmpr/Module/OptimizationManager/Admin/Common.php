@@ -4,4 +4,4 @@
     |             62400eebcbf69             |
     |_______________________________________|
 */
- use Pmpr\Module\OptimizationManager\OptimizationManager; OptimizationManager::symcgieuakksimmu();
+ namespace Pmpr\Module\OptimizationManager\Admin; use Pmpr\Module\OptimizationManager\Container; abstract class Common extends Container { }

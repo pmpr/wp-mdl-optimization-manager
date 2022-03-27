@@ -1,8 +1,8 @@
 {
-  "name": "pmpr-pkg/wp-pkg-optimization-manager",
+  "name": "pmpr-mod/wp-mod-optimization-manager",
   "type": "project",
   "license": "proprietary",
-  "description": "Optimization Manager Package for Wordpress",
+  "description": "Optimization Manager Module for Wordpress",
   "keywords": [
     "optimization-manager",
     "wordpress",
@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pmpr\\Package\\OptimizationManager\\": "src/Pmpr/Package/OptimizationManager"
+      "Pmpr\\Module\\OptimizationManager\\": "src/Pmpr/Module/OptimizationManager"
     },
     "files": [
       "index.php"
