@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             65195bdde3b36             |
+    |             654a15e6c88b1             |
     |_______________________________________|
 */
- namespace Pmpr\Module\OptimizationManager\Admin; class Admin extends Common { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { Customer::symcgieuakksimmu(); } }
+ namespace Pmpr\Module\OptimizationManager\Admin; class Admin extends Common { public function mameiwsayuyquoeq() { Customer::symcgieuakksimmu(); } }
