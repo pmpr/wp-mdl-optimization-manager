@@ -4,4 +4,4 @@
     |             65ae3b81daf53             |
     |_______________________________________|
 */
- use Pmpr\Module\OptimizationManager\OptimizationManager; OptimizationManager::symcgieuakksimmu();
+ namespace Pmpr\Module\OptimizationManager\Subscription\Interfaces; interface CommonInterface { const reqeqykqwgqmkqsc = "\x62\165\144\147\145\164"; }

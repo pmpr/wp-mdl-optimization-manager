@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             65ae3b81daf53             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Module\OptimizationManager\Subscription\Model; use Pmpr\Common\Subscription\Model\Subscription as BaseClass; use Pmpr\Module\DomainManager\Model\Domain; use Pmpr\Module\OptimizationManager\Subscription\Traits\EngineTrait; class Subscription extends BaseClass { use EngineTrait; public function ewaqwooqoqmcoomi() { $this->cquokmemekqqywgi($this->eoaomaokwkwqyqiq(self::kiwgokskimawckie)->gswweykyogmsyawy(__("\x50\x6c\x61\x6e", PR__MDL__OPTIMIZATION_MANAGER))->wuuqgaekqeymecag(Plan::class)); parent::ewaqwooqoqmcoomi(); } public function kamyqikiiuwqiiuw($qgoqiacsiccwoawi, $eqgoocgaqwqcimie, &$mksyucucyswaukig = null) { switch ($qgoqiacsiccwoawi) { case self::kuqwimiimiqsimgo: $swgwkyqkakceqeia = Domain::symcgieuakksimmu(); if (!($mokawwccycoiqeka = $swgwkyqkakceqeia->akkkoiiymmamsauc($eqgoocgaqwqcimie))) { goto cgewcsueoyaeikgm; } $eqgoocgaqwqcimie = $this->caokeucsksukesyo()->wmkogisswkckmeua()->ywggokoaagwwqyak([self::squoamkioomemiyi => self::emkkgysokckswycs, self::emkkgysokckswycs => $swgwkyqkakceqeia, self::ckmqoekmugkggeym => $mokawwccycoiqeka]); cgewcsueoyaeikgm: goto ygkcacsyyckescqs; } cuoqqgaygogsmmic: ygkcacsyyckescqs: return parent::kamyqikiiuwqiiuw($qgoqiacsiccwoawi, $eqgoocgaqwqcimie, $mksyucucyswaukig); } }

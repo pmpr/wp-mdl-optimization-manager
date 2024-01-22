@@ -4,4 +4,4 @@
     |             65ae3b81daf53             |
     |_______________________________________|
 */
- use Pmpr\Module\OptimizationManager\OptimizationManager; OptimizationManager::symcgieuakksimmu();
+ namespace Pmpr\Module\OptimizationManager\Subscription; class Manager extends Common { }

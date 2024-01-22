@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization Manager\n"
-"POT-Creation-Date: 2022-03-21 14:40+0330\n"
-"PO-Revision-Date: 2022-03-21 14:40+0330\n"
+"POT-Creation-Date: 2024-01-20 17:35+0330\n"
+"PO-Revision-Date: 2024-01-20 17:35+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Source-Language: en\n"
@@ -26,385 +26,199 @@ msgstr ""
 msgid "Customers"
 msgstr "مشتریان"
 
-#: src/Pmpr/Module/OptimizationManager/Model/Budget.php:30
-msgid "Budget"
-msgstr "بودجه"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Budget.php:31
-#: src/Pmpr/Module/OptimizationManager/Model/Domain.php:31
-#: src/Pmpr/Module/OptimizationManager/Panel/Panel.php:42
-msgid "Budgets"
-msgstr "بودجه‌ها"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Budget.php:44
-#: src/Pmpr/Module/OptimizationManager/Model/Page.php:52
-msgid "Domain"
-msgstr "دامنه"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Budget.php:47
-msgid "Order Item"
-msgstr "آیتم سفارش"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Budget.php:50
-#: src/Pmpr/Module/OptimizationManager/Model/Page.php:47
-#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:61
-#: src/Pmpr/Module/OptimizationManager/Panel/Panel.php:65
-msgid "Level"
-msgstr "سطح"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Budget.php:54
-#: src/Pmpr/Module/OptimizationManager/Model/Domain.php:112
-#: src/Pmpr/Module/OptimizationManager/Panel/Panel.php:66
-msgid "Number of Pages"
-msgstr "تعداد صفحه"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Budget.php:57
-#: src/Pmpr/Module/OptimizationManager/Model/Domain.php:113
-#: src/Pmpr/Module/OptimizationManager/Panel/Panel.php:64
-msgid "Start Date"
-msgstr "تاریخ شروع"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Budget.php:60
-#: src/Pmpr/Module/OptimizationManager/Model/Domain.php:114
-#: src/Pmpr/Module/OptimizationManager/Panel/Panel.php:63
-msgid "End Date"
-msgstr "تاریخ پایان"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Budget.php:104
-msgid "For All"
-msgstr "برای همه"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Budget.php:110
-#, php-format
-msgid "%s Page"
-msgstr "%s صفحه"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Domain.php:35
-#: src/Pmpr/Module/OptimizationManager/Model/Page.php:28
-#: src/Pmpr/Module/OptimizationManager/Panel/Panel.php:48
-msgid "Pages"
-msgstr "صفحات"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Domain.php:106
-msgid "Orders"
-msgstr "سفارش‌ها"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Domain.php:108
-msgid "Order Datetime"
-msgstr "تاریخ سفارش"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Domain.php:109
-msgid "Order Total"
-msgstr "مبلغ سفارش"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Domain.php:110
-msgid "Order Status"
-msgstr "وضعیت سفارش"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Domain.php:111
-msgid "Order Type"
-msgstr "نوع سفارش"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Domain.php:132
-msgid "Valid Budgets"
-msgstr "جمع بودجه‌ معتبر"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Domain.php:133
-msgid "Last Expire Date"
-msgstr "آخرین تاریخ انقضا"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Evaluation.php:22
-msgid "Evaluation"
-msgstr "اندازه گیری"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Evaluation.php:23
-#: src/Pmpr/Module/OptimizationManager/Model/Page.php:55
-msgid "Evaluations"
-msgstr "اندازه گیری‌ها"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Page.php:27
-#: src/Pmpr/Module/OptimizationManager/Model/PageLog.php:53
-#: src/Pmpr/Module/OptimizationManager/Model/Service.php:39
-msgid "Page"
-msgstr "صفحه"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Page.php:40
-msgid "URL"
-msgstr "پیوند"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Page.php:44
-msgid "Status"
-msgstr "وضعیت"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Page.php:59
-#: src/Pmpr/Module/OptimizationManager/Model/Service.php:23
-msgid "Services"
-msgstr "خدمت دهی‌ها"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Page.php:63
-msgid "Logs"
-msgstr "گزارش‌ها (لاگ)"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Page.php:146
-msgid "Active"
-msgstr "فعال"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Page.php:147
-msgid "Inactive"
-msgstr "غیر فعال"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Page.php:148
-msgid "Ignored"
-msgstr "رها شده"
-
-#: src/Pmpr/Module/OptimizationManager/Model/PageLog.php:28
-msgid "Page Log"
-msgstr "گزارش صفحه"
-
-#: src/Pmpr/Module/OptimizationManager/Model/PageLog.php:29
-msgid "Page Logs"
-msgstr "گزارشات صفحه"
-
-#: src/Pmpr/Module/OptimizationManager/Model/PageLog.php:39
-msgid "Field"
-msgstr "فیلد"
-
-#: src/Pmpr/Module/OptimizationManager/Model/PageLog.php:42
-msgid "Old Value"
-msgstr "مقدار قدیمی"
-
-#: src/Pmpr/Module/OptimizationManager/Model/PageLog.php:45
-msgid "New Value"
-msgstr "مقدار جدید"
-
-#: src/Pmpr/Module/OptimizationManager/Model/PageLog.php:49
-msgid "User"
-msgstr "کاربر"
-
-#: src/Pmpr/Module/OptimizationManager/Model/PageLog.php:66
-msgid "Admin"
-msgstr "مدیر"
-
-#: src/Pmpr/Module/OptimizationManager/Model/PageLog.php:67
-msgid "System"
-msgstr "سیستم"
-
-#: src/Pmpr/Module/OptimizationManager/Model/PageLog.php:68
-msgid "Customer"
-msgstr "مشتری"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Service.php:22
-msgid "Service"
-msgstr "خدمت دهی"
-
-#: src/Pmpr/Module/OptimizationManager/Model/Service.php:35
-msgid "Status Code"
-msgstr "کد وضعیت"
-
-#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:106
+#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:21
 msgid "Optimization Manager"
 msgstr "م افزایش سرعت"
 
-#: src/Pmpr/Module/OptimizationManager/Panel/Controller.php:78
-msgid "Domain not passed"
-msgstr "دامنه ارسال نشده است"
+#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:70
+msgid "Can not find order or order item."
+msgstr "نمی توانم سفارش را پیدا کنم."
 
-#: src/Pmpr/Module/OptimizationManager/Panel/Controller.php:145
-msgid "There is no ownership for you on any domain"
-msgstr "هیچ مالکیتی روی هیچ دامنه‌ای برای شما ثبت نشده است"
+#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:88
+#: src/Pmpr/Module/OptimizationManager/Product.php:177
+#, php-format
+msgid "Can not create opt domain: %s"
+msgstr "قارد به ایجاد دامنه افزایش سرعت نیستیم: %s"
 
-#: src/Pmpr/Module/OptimizationManager/Panel/Controller.php:149
-#: src/Pmpr/Module/OptimizationManager/REST/Common.php:67
-msgid "Service unavailable right now."
-msgstr "در حال حاضر سرویس در دسترس نیست."
+#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:164
+#, php-format
+msgid "Budget with level %s and value %s added successfully."
+msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Panel/Panel.php:36
-msgid "Optimization"
-msgstr "افزایش سرعت"
+#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:170
+msgid "Budget with requested data already exist."
+msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Panel/Panel.php:43
-msgid "Your Optimization Module Budgets"
-msgstr "بودجه‌های ماژول افزایش سرعت شما"
+#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:174
+msgid "Domain is require to add a budget."
+msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Panel/Panel.php:49
-msgid "Your Optimization Module Pages"
-msgstr "صفحات ماژول افزایش سرعت شما"
+#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:196
+msgid "Level"
+msgstr "سطح"
 
-#: src/Pmpr/Module/OptimizationManager/Panel/Panel.php:69
-msgid "You dont't have any domain that has a optimization module."
-msgstr "شما هیچ‌ دامنه‌ای که روی آن ماژول افزایش سرعت فعال باشد، ندارید."
-
-#: src/Pmpr/Module/OptimizationManager/Product.php:113
+#: src/Pmpr/Module/OptimizationManager/Product.php:98
 #, php-format
 msgid ""
 "domain %s, already has free version, please add more variation to continue"
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Product.php:120
+#: src/Pmpr/Module/OptimizationManager/Product.php:104
 msgid "No variations selected"
 msgstr "هیج متغییری انتخاب نشده است"
 
-#: src/Pmpr/Module/OptimizationManager/Product.php:200
-#, php-format
-msgid "Can not create opt domain: %s"
-msgstr "قارد به ایجاد دامنه افزایش سرعت نیستیم: %s"
-
-#: src/Pmpr/Module/OptimizationManager/Product.php:255
+#: src/Pmpr/Module/OptimizationManager/Product.php:232
 msgid "Budget can't be add, some require fields not set."
 msgstr "برخی پارامتر‌های ضروری برای ایجاد بودجه یافت نشد."
 
-#: src/Pmpr/Module/OptimizationManager/Product.php:327
+#: src/Pmpr/Module/OptimizationManager/Product.php:301
 msgid "Start Date is not a valid date."
 msgstr "تاریخ شروع استفاده از بودجه معتبر نیست."
 
-#: src/Pmpr/Module/OptimizationManager/Product.php:328
+#: src/Pmpr/Module/OptimizationManager/Product.php:302
 msgid "Please fill start date."
 msgstr "لطفا تاریخ شروع استفاده از بودجه را مشخص کنید."
 
-#: src/Pmpr/Module/OptimizationManager/Product.php:329
+#: src/Pmpr/Module/OptimizationManager/Product.php:303
 msgid "You Can not use passed date for start date."
 msgstr "شما نمی‌توانید از تاریخ‌های گذشته برای تاریخ شروع بودجه استفاده کنید."
 
-#: src/Pmpr/Module/OptimizationManager/Product.php:400
+#: src/Pmpr/Module/OptimizationManager/Product.php:356
 msgid "Start Budget Date"
 msgstr "تاریخ شروع استفاده از بودجه"
 
-#: src/Pmpr/Module/OptimizationManager/REST/Budget.php:54
-#: src/Pmpr/Module/OptimizationManager/REST/Budget.php:78
-msgid "You have budget"
-msgstr "شما بودجه دارید"
+#: src/Pmpr/Module/OptimizationManager/Setting.php:39
+msgid "Module Setting"
+msgstr "تنظیمات ماژول"
 
-#: src/Pmpr/Module/OptimizationManager/REST/Budget.php:57
-msgid "Your budget is changed"
-msgstr "مقدار بودجه شما تغییر کرده است"
-
-#: src/Pmpr/Module/OptimizationManager/REST/Budget.php:62
-msgid "Require parameter is missing"
-msgstr "پارامتر‌های ضروری یافت نشدند"
-
-#: src/Pmpr/Module/OptimizationManager/REST/Budget.php:109
-msgid "You dont have valid budget"
-msgstr "شما هیچ بودجه‌ای ندارید"
-
-#: src/Pmpr/Module/OptimizationManager/REST/Common.php:72
-msgid "Your request is not valid"
-msgstr "درخواست شما معتبر نیست"
-
-#: src/Pmpr/Module/OptimizationManager/REST/Common.php:82
-msgid "Domain not valid"
-msgstr "دامنه معتبر نیست"
-
-#: src/Pmpr/Module/OptimizationManager/REST/Page.php:90
-msgid "Page added successfully."
-msgstr "صفحه با موفقیت اضافه شد."
-
-#: src/Pmpr/Module/OptimizationManager/REST/Page.php:98
-msgid "Domain is not valid."
-msgstr "دامنه معتبر نیست."
-
-#: src/Pmpr/Module/OptimizationManager/REST/Page.php:129
-msgid "Page removed successfully."
-msgstr "صفحه با موفقیت حذف شد."
-
-#: src/Pmpr/Module/OptimizationManager/REST/Page.php:132
-msgid "Can not delete."
-msgstr "قابل حذف نیست."
-
-#: src/Pmpr/Module/OptimizationManager/REST/Page.php:136
-#: src/Pmpr/Module/OptimizationManager/REST/Page.php:201
-msgid "Requested page not exits."
-msgstr "صفحه درخواستی وجود ندارد."
-
-#: src/Pmpr/Module/OptimizationManager/REST/Page.php:197
-msgid "Page status changed successfully."
-msgstr "وضعیت صفحه با موفقیت به تغییر کرد."
-
-#: src/Pmpr/Module/OptimizationManager/REST/Page.php:205
-msgid "Parameters is not valid."
-msgstr "پارامتر‌های ارسالی معتبر نیستند."
-
-#: src/Pmpr/Module/OptimizationManager/REST/Page.php:233
-msgid "Your budget is not enough to do this."
-msgstr "بودجه جاری شما برای انجام این عملیات کافی نیست."
-
-#: src/Pmpr/Module/OptimizationManager/REST/Page.php:238
-msgid "You can't do this, because you don't have any budget."
-msgstr ""
-"شما قادر به انجام این عملیات نیستید، زیرا بودجه شما برای این کار کافی نیست."
-
-#: src/Pmpr/Module/OptimizationManager/REST/Remote.php:66
-msgid "Request is valid"
-msgstr "درخواست معتبر است"
-
-#: src/Pmpr/Module/OptimizationManager/REST/Remote.php:71
-msgid "Your request permalinks is not valid."
-msgstr "لینک‌های درخواستی شما معتبر نیستند."
-
-#: src/Pmpr/Module/OptimizationManager/REST/Remote.php:75
-msgid "Require parameters is missing or uncorrected"
-msgstr "پارامتر‌های ضروری یافت نشدند و یا اشتباه هستند"
-
-#: src/Pmpr/Module/OptimizationManager/REST/Remote.php:98
-msgid "apps is empty, please contact with admin"
-msgstr "لیست اپلیکیشن‌ها خالی است، لطفا با ادمین تماس بگیرید"
-
-#: src/Pmpr/Module/OptimizationManager/Setting.php:44
+#: src/Pmpr/Module/OptimizationManager/Setting.php:40
 msgid "Optimization Manager Setting"
 msgstr "تنظیمات مدیریت افزایش سرعت"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:45
-msgid "Setting"
-msgstr "تنظیمات"
-
-#: src/Pmpr/Module/OptimizationManager/Setting.php:61
-#: src/Pmpr/Module/OptimizationManager/Setting.php:65
+#: src/Pmpr/Module/OptimizationManager/Setting.php:60
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:69
+#: src/Pmpr/Module/OptimizationManager/Setting.php:61
+msgid "General Configuration"
+msgstr "پیکربندی عمومی"
+
+#: src/Pmpr/Module/OptimizationManager/Setting.php:64
+msgid "Config"
+msgstr "پیکربندی"
+
+#: src/Pmpr/Module/OptimizationManager/Setting.php:68
 msgid "Related Component"
 msgstr "کامپوننت مرتبط"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:74
+#: src/Pmpr/Module/OptimizationManager/Setting.php:72
 msgid "Free Variation Alert"
 msgstr "اعلان نسخه رایگان"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:79
+#: src/Pmpr/Module/OptimizationManager/Setting.php:77
 msgid "Remote Apps"
 msgstr "اپلیکیشن‌های ریموت سرور"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:83
-msgid "App name"
-msgstr "نام اپلیکیشن"
-
-#: src/Pmpr/Module/OptimizationManager/Setting.php:84
-msgid "Write full url"
-msgstr ""
-
-#: src/Pmpr/Module/OptimizationManager/Setting.php:86
+#: src/Pmpr/Module/OptimizationManager/Setting.php:78
 msgid "Used for extract critical css and preloading process."
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:91
+#: src/Pmpr/Module/OptimizationManager/Setting.php:81
+msgid "App name"
+msgstr "نام اپلیکیشن"
+
+#: src/Pmpr/Module/OptimizationManager/Setting.php:82
+msgid "Write full url"
+msgstr ""
+
+#: src/Pmpr/Module/OptimizationManager/Setting.php:89
 msgid "Statistics"
 msgstr "آمار و ارقام"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:95
-#: src/Pmpr/Module/OptimizationManager/Setting.php:109
+#: src/Pmpr/Module/OptimizationManager/Setting.php:92
+#: src/Pmpr/Module/OptimizationManager/Setting.php:104
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:100
+#: src/Pmpr/Module/OptimizationManager/Setting.php:96
 msgid "Description"
-msgstr ""
+msgstr "شرح"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:105
+#: src/Pmpr/Module/OptimizationManager/Setting.php:101
 msgid "Items"
 msgstr "آیتم‌ها"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:114
+#: src/Pmpr/Module/OptimizationManager/Setting.php:108
 msgid "Icon"
 msgstr "آیکون"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:64
+msgid "Something wrong on adding subscription to cart, please try again."
+msgstr ""
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:77
+msgid "Plan is not exit or not active, please refresh the page and try again."
+msgstr ""
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:81
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:21
+msgid "Plan"
+msgstr "پلن"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/MultistepForm.php:36
+msgid "Choice Subscription"
+msgstr "انتخاب اشتراک"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/Page/Pricing.php:26
+msgid "Pricing"
+msgstr "قیمت گذاری"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/Page/Pricing.php:36
+msgid "Please select a plan first."
+msgstr "لطفا ابتدا یک پلن را انتخاب کنید."
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:24
+msgid "Subscriptions"
+msgstr "اشتراک‌ها"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:38
+msgid ""
+"Only the first budget type rule is included in the budgets processing process."
+msgstr "فقط اولین قاعده از نوع بودجه در فرآیند پردازش بودجه‌ها لحاظ می‌شود."
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:43
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:50
+msgid "Budget"
+msgstr "بودجه"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:65
+msgid "Sorry, your domain has no subscription yet."
+msgstr ""
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:25
+msgid "Optimization Manager Subscription Setting"
+msgstr "تنظیمات اشتراک مدیریت افزایش سرعت"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:26
+msgid "Subscription Setting"
+msgstr "تنظیمات اشتراک"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:39
+msgid "Direct Purchase Message"
+msgstr "پیغام خرید مستقیم"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:40
+msgid "Display on subscription products page."
+msgstr "نمایش در صفحه محصولات اشتراک."
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:41
+msgid "Pricing Page"
+msgstr "صفحه قیمت‌گذاری"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:44
+#, php-format
+msgid "To buy this product, please proceed through the %s."
+msgstr "برای خرید این محصول لطفا از طریق %s اقدام کنید."
 
 #: src/Pmpr/Module/OptimizationManager/Traits/CommonTrait.php:22
 msgid "Level 1"
@@ -413,6 +227,223 @@ msgstr "سطح ۱"
 #: src/Pmpr/Module/OptimizationManager/Traits/CommonTrait.php:23
 msgid "Level 2"
 msgstr "سطح ۲"
+
+#~ msgid "Notice Cannot be Purchased Directly"
+#~ msgstr "اعلان غیر قابل خرید به صورت مستقیم"
+
+#~ msgid "Budgets"
+#~ msgstr "بودجه‌ها"
+
+#~ msgid "Domain"
+#~ msgstr "دامنه"
+
+#~ msgid "Order Item"
+#~ msgstr "آیتم سفارش"
+
+#~ msgid "Level %s"
+#~ msgstr "سطح %s"
+
+#~ msgid "Number of Pages"
+#~ msgstr "تعداد صفحه"
+
+#~ msgid "Start Date"
+#~ msgstr "تاریخ شروع"
+
+#~ msgid "End Date"
+#~ msgstr "تاریخ پایان"
+
+#~ msgid "For All"
+#~ msgstr "برای همه"
+
+#~ msgid "%s Page"
+#~ msgstr "%s صفحه"
+
+#~ msgid "Pages"
+#~ msgstr "صفحات"
+
+#~ msgid "Orders"
+#~ msgstr "سفارش‌ها"
+
+#~ msgid "Order Datetime"
+#~ msgstr "تاریخ سفارش"
+
+#~ msgid "Order Total"
+#~ msgstr "مبلغ سفارش"
+
+#~ msgid "Order Status"
+#~ msgstr "وضعیت سفارش"
+
+#~ msgid "Order Type"
+#~ msgstr "نوع سفارش"
+
+#~ msgid "Valid Budgets"
+#~ msgstr "جمع بودجه‌ معتبر"
+
+#~ msgid "Last Expire Date"
+#~ msgstr "آخرین تاریخ انقضا"
+
+#~ msgid "Evaluation"
+#~ msgstr "اندازه گیری"
+
+#~ msgid "Evaluations"
+#~ msgstr "اندازه گیری‌ها"
+
+#~ msgid "Page"
+#~ msgstr "صفحه"
+
+#~ msgid "URL"
+#~ msgstr "پیوند"
+
+#~ msgid "Inactive"
+#~ msgstr "غیر فعال"
+
+#~ msgid "Active"
+#~ msgstr "فعال"
+
+#~ msgid "Ignored"
+#~ msgstr "رها شده"
+
+#~ msgid "Status"
+#~ msgstr "وضعیت"
+
+#~ msgid "Services"
+#~ msgstr "خدمت دهی‌ها"
+
+#~ msgid "Logs"
+#~ msgstr "گزارش‌ها (لاگ)"
+
+#~ msgid "Page Log"
+#~ msgstr "گزارش صفحه"
+
+#~ msgid "Page Logs"
+#~ msgstr "گزارشات صفحه"
+
+#~ msgid "Field"
+#~ msgstr "فیلد"
+
+#~ msgid "Old Value"
+#~ msgstr "مقدار قدیمی"
+
+#~ msgid "New Value"
+#~ msgstr "مقدار جدید"
+
+#~ msgid "User"
+#~ msgstr "کاربر"
+
+#~ msgid "Admin"
+#~ msgstr "مدیر"
+
+#~ msgid "System"
+#~ msgstr "سیستم"
+
+#~ msgid "Customer"
+#~ msgstr "مشتری"
+
+#~ msgid "Service"
+#~ msgstr "خدمت دهی"
+
+#~ msgid "Status Code"
+#~ msgstr "کد وضعیت"
+
+#~ msgid "Domain not passed"
+#~ msgstr "دامنه ارسال نشده است"
+
+#~ msgid "There is no ownership for you on any domain"
+#~ msgstr "هیچ مالکیتی روی هیچ دامنه‌ای برای شما ثبت نشده است"
+
+#~ msgid "Service unavailable right now."
+#~ msgstr "در حال حاضر سرویس در دسترس نیست."
+
+#~ msgid "Optimization"
+#~ msgstr "افزایش سرعت"
+
+#~ msgid "Your Optimization Module Budgets"
+#~ msgstr "بودجه‌های ماژول افزایش سرعت شما"
+
+#~ msgid "Your Optimization Module Pages"
+#~ msgstr "صفحات ماژول افزایش سرعت شما"
+
+#~ msgid "You dont't have any domain that has a optimization module."
+#~ msgstr "شما هیچ‌ دامنه‌ای که روی آن ماژول افزایش سرعت فعال باشد، ندارید."
+
+#~ msgid "You have budget"
+#~ msgstr "شما بودجه دارید"
+
+#~ msgid "Your budget is changed"
+#~ msgstr "مقدار بودجه شما تغییر کرده است"
+
+#~ msgid "Require parameter is missing"
+#~ msgstr "پارامتر‌های ضروری یافت نشدند"
+
+#~ msgid "You dont have valid budget"
+#~ msgstr "شما هیچ بودجه‌ای ندارید"
+
+#~ msgid "Your request is not valid"
+#~ msgstr "درخواست شما معتبر نیست"
+
+#~ msgid "Domain not valid"
+#~ msgstr "دامنه معتبر نیست"
+
+#~ msgid "Page added successfully."
+#~ msgstr "صفحه با موفقیت اضافه شد."
+
+#~ msgid "Domain is not valid."
+#~ msgstr "دامنه معتبر نیست."
+
+#, fuzzy
+#~| msgid "Page added successfully."
+#~ msgid "Pages added successfully."
+#~ msgstr "صفحه با موفقیت اضافه شد."
+
+#, fuzzy
+#~| msgid "Your budget is not enough to do this."
+#~ msgid "Your budget not enough."
+#~ msgstr "بودجه جاری شما برای انجام این عملیات کافی نیست."
+
+#~ msgid "Page removed successfully."
+#~ msgstr "صفحه با موفقیت حذف شد."
+
+#~ msgid "Can not delete."
+#~ msgstr "قابل حذف نیست."
+
+#~ msgid "Requested page not exits."
+#~ msgstr "صفحه درخواستی وجود ندارد."
+
+#~ msgid "Page status changed successfully."
+#~ msgstr "وضعیت صفحه با موفقیت به تغییر کرد."
+
+#~ msgid "Parameters is not valid."
+#~ msgstr "پارامتر‌های ارسالی معتبر نیستند."
+
+#~ msgid "Your budget is not enough to do this."
+#~ msgstr "بودجه جاری شما برای انجام این عملیات کافی نیست."
+
+#~ msgid "You can't do this, because you don't have any budget."
+#~ msgstr ""
+#~ "شما قادر به انجام این عملیات نیستید، زیرا بودجه شما برای این کار کافی نیست."
+
+#~ msgid "Request is valid"
+#~ msgstr "درخواست معتبر است"
+
+#~ msgid "Your request permalinks is not valid."
+#~ msgstr "لینک‌های درخواستی شما معتبر نیستند."
+
+#~ msgid "Require parameters is missing or uncorrected"
+#~ msgstr "پارامتر‌های ضروری یافت نشدند و یا اشتباه هستند"
+
+#, fuzzy
+#~| msgid "apps is empty, please contact with admin"
+#~ msgid "apps is empty, please contact with admin."
+#~ msgstr "لیست اپلیکیشن‌ها خالی است، لطفا با ادمین تماس بگیرید"
+
+#~ msgid "Extras"
+#~ msgstr "اضافی‌ها"
+
+#~ msgid "Seperated"
+#~ msgstr "مصرف جداگانه"
+
+#~ msgid "Aggregated"
+#~ msgstr "مصرف تجمیع‌شده"
 
 #~ msgid "Just write app name and no need to whole url: %s"
 #~ msgstr "فقط نام اپلیکیشن را بنویسید و نیازی به نوشتن کل لینک نیست: %s"
@@ -501,9 +532,6 @@ msgstr "سطح ۲"
 #~ msgstr ""
 #~ "لطفا فیلدهای همه سطر‌ها را پر کنید و یا موارد اضافی که نمی‌خواهید را حذف کنید."
 
-#~ msgid "Please select a domain first."
-#~ msgstr "لطفا یک دامنه‌ را انتخاب کنید."
-
 #~ msgid "Total"
 #~ msgstr "جمع کل"
 
@@ -570,9 +598,6 @@ msgstr "سطح ۲"
 
 #~ msgid "Write numbers | separated."
 #~ msgstr "اعداد را با استفاده از | جدا کنید."
-
-#~ msgid "Level %s"
-#~ msgstr "سطح %s"
 
 #~ msgid "Period (Month)"
 #~ msgstr "مدت (ماه)"
