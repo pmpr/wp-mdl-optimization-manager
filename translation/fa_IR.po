@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization Manager\n"
-"POT-Creation-Date: 2024-01-20 17:35+0330\n"
-"PO-Revision-Date: 2024-01-20 17:35+0330\n"
+"POT-Creation-Date: 2024-02-28 17:23+0330\n"
+"PO-Revision-Date: 2024-02-28 17:23+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -116,8 +116,8 @@ msgid "Free Variation Alert"
 msgstr "اعلان نسخه رایگان"
 
 #: src/Pmpr/Module/OptimizationManager/Setting.php:77
-msgid "Remote Apps"
-msgstr "اپلیکیشن‌های ریموت سرور"
+msgid "VirtualBrowser Apps"
+msgstr ""
 
 #: src/Pmpr/Module/OptimizationManager/Setting.php:78
 msgid "Used for extract critical css and preloading process."
@@ -152,16 +152,16 @@ msgstr "آیتم‌ها"
 msgid "Icon"
 msgstr "آیکون"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:64
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:66
 msgid "Something wrong on adding subscription to cart, please try again."
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:77
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:80
 msgid "Plan is not exit or not active, please refresh the page and try again."
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:81
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:21
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:84
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:22
 msgid "Plan"
 msgstr "پلن"
 
@@ -187,13 +187,26 @@ msgid ""
 msgstr "فقط اولین قاعده از نوع بودجه در فرآیند پردازش بودجه‌ها لحاظ می‌شود."
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:43
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:50
-msgid "Budget"
-msgstr "بودجه"
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:51
+msgid "Coin"
+msgstr "سکه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:65
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:57
+msgid "Critical CSS Usage"
+msgstr "مصرف استایل ضروری"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:58
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:64
+msgid "For all devices(Desktop & Mobile)"
+msgstr "برای همه دستگاه‌ها (دسکتاپ و موبایل)"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:63
+msgid "LCP Item Usage"
+msgstr "مصرف LCP آیتم"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:77
 msgid "Sorry, your domain has no subscription yet."
-msgstr ""
+msgstr "با عرض پوزش، دامنه شما هنوز هیچ اشتراکی ندارد."
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:25
 msgid "Optimization Manager Subscription Setting"
@@ -227,6 +240,12 @@ msgstr "سطح ۱"
 #: src/Pmpr/Module/OptimizationManager/Traits/CommonTrait.php:23
 msgid "Level 2"
 msgstr "سطح ۲"
+
+#~ msgid "Remote Apps"
+#~ msgstr "اپلیکیشن‌های ریموت سرور"
+
+#~ msgid "Budget"
+#~ msgstr "بودجه"
 
 #~ msgid "Notice Cannot be Purchased Directly"
 #~ msgstr "اعلان غیر قابل خرید به صورت مستقیم"
