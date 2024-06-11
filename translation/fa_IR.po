@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization Manager\n"
-"POT-Creation-Date: 2024-02-28 17:23+0330\n"
-"PO-Revision-Date: 2024-02-28 17:23+0330\n"
+"POT-Creation-Date: 2024-06-11 13:10+0330\n"
+"PO-Revision-Date: 2024-06-11 13:11+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Source-Language: en\n"
@@ -117,11 +117,11 @@ msgstr "اعلان نسخه رایگان"
 
 #: src/Pmpr/Module/OptimizationManager/Setting.php:77
 msgid "VirtualBrowser Apps"
-msgstr ""
+msgstr "اپ‌های مربوط به Virtual Browser"
 
 #: src/Pmpr/Module/OptimizationManager/Setting.php:78
-msgid "Used for extract critical css and preloading process."
-msgstr ""
+msgid "Used for extract critical css and other remote optimizations."
+msgstr "برای استخراج استایل ضروری و سایر بهینه سازی های ریموت استفاده می شود."
 
 #: src/Pmpr/Module/OptimizationManager/Setting.php:81
 msgid "App name"
@@ -129,7 +129,7 @@ msgstr "نام اپلیکیشن"
 
 #: src/Pmpr/Module/OptimizationManager/Setting.php:82
 msgid "Write full url"
-msgstr ""
+msgstr "آدرس کامل را بنویسید"
 
 #: src/Pmpr/Module/OptimizationManager/Setting.php:89
 msgid "Statistics"
@@ -154,11 +154,12 @@ msgstr "آیکون"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:66
 msgid "Something wrong on adding subscription to cart, please try again."
-msgstr ""
+msgstr "مشکلی در افزودن اشتراک به سبد خرید وجود دارد، لطفاً دوباره امتحان کنید."
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:80
-msgid "Plan is not exit or not active, please refresh the page and try again."
+msgid "Plan is not exists or not active, please refresh the page and try again."
 msgstr ""
+"پلن وجود ندارد یا فعال نیست، لطفاً صفحه را رفرش کنید و دوباره امتحان کنید."
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:84
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:22
@@ -182,9 +183,8 @@ msgid "Subscriptions"
 msgstr "اشتراک‌ها"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:38
-msgid ""
-"Only the first budget type rule is included in the budgets processing process."
-msgstr "فقط اولین قاعده از نوع بودجه در فرآیند پردازش بودجه‌ها لحاظ می‌شود."
+msgid "Only the first coin type rule is included in the subscription process."
+msgstr "فقط اولین قاعده از نوع سکه در فرآیند پردازش اشتراک لحاظ می‌شود."
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:43
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:51
@@ -201,34 +201,34 @@ msgid "For all devices(Desktop & Mobile)"
 msgstr "برای همه دستگاه‌ها (دسکتاپ و موبایل)"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:63
-msgid "LCP Item Usage"
-msgstr "مصرف LCP آیتم"
+msgid "Web Vital Usage"
+msgstr "مصرف وب وایتال"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:77
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:144
 msgid "Sorry, your domain has no subscription yet."
 msgstr "با عرض پوزش، دامنه شما هنوز هیچ اشتراکی ندارد."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:25
+#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:28
 msgid "Optimization Manager Subscription Setting"
 msgstr "تنظیمات اشتراک مدیریت افزایش سرعت"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:26
+#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:29
 msgid "Subscription Setting"
 msgstr "تنظیمات اشتراک"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:39
+#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:42
 msgid "Direct Purchase Message"
 msgstr "پیغام خرید مستقیم"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:40
+#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:43
 msgid "Display on subscription products page."
 msgstr "نمایش در صفحه محصولات اشتراک."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:41
+#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:44
 msgid "Pricing Page"
 msgstr "صفحه قیمت‌گذاری"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:44
+#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:47
 #, php-format
 msgid "To buy this product, please proceed through the %s."
 msgstr "برای خرید این محصول لطفا از طریق %s اقدام کنید."
@@ -240,6 +240,9 @@ msgstr "سطح ۱"
 #: src/Pmpr/Module/OptimizationManager/Traits/CommonTrait.php:23
 msgid "Level 2"
 msgstr "سطح ۲"
+
+#~ msgid "LCP Item Usage"
+#~ msgstr "مصرف LCP آیتم"
 
 #~ msgid "Remote Apps"
 #~ msgstr "اپلیکیشن‌های ریموت سرور"
