@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization Manager\n"
-"POT-Creation-Date: 2024-06-11 13:10+0330\n"
-"PO-Revision-Date: 2024-06-11 13:11+0330\n"
+"POT-Creation-Date: 2024-06-20 12:36+0330\n"
+"PO-Revision-Date: 2024-06-20 12:38+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -131,24 +131,32 @@ msgstr "نام اپلیکیشن"
 msgid "Write full url"
 msgstr "آدرس کامل را بنویسید"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:89
+#: src/Pmpr/Module/OptimizationManager/Setting.php:86
+msgid "App Token"
+msgstr ""
+
+#: src/Pmpr/Module/OptimizationManager/Setting.php:87
+msgid "Use for communication between pmpr & remote app"
+msgstr ""
+
+#: src/Pmpr/Module/OptimizationManager/Setting.php:94
 msgid "Statistics"
 msgstr "آمار و ارقام"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:92
-#: src/Pmpr/Module/OptimizationManager/Setting.php:104
+#: src/Pmpr/Module/OptimizationManager/Setting.php:97
+#: src/Pmpr/Module/OptimizationManager/Setting.php:109
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:96
+#: src/Pmpr/Module/OptimizationManager/Setting.php:101
 msgid "Description"
 msgstr "شرح"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:101
+#: src/Pmpr/Module/OptimizationManager/Setting.php:106
 msgid "Items"
 msgstr "آیتم‌ها"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:108
+#: src/Pmpr/Module/OptimizationManager/Setting.php:113
 msgid "Icon"
 msgstr "آیکون"
 
@@ -162,7 +170,7 @@ msgstr ""
 "پلن وجود ندارد یا فعال نیست، لطفاً صفحه را رفرش کنید و دوباره امتحان کنید."
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:84
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:22
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:38
 msgid "Plan"
 msgstr "پلن"
 
@@ -192,6 +200,7 @@ msgid "Coin"
 msgstr "سکه"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:57
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:29
 msgid "Critical CSS Usage"
 msgstr "مصرف استایل ضروری"
 
@@ -201,12 +210,75 @@ msgid "For all devices(Desktop & Mobile)"
 msgstr "برای همه دستگاه‌ها (دسکتاپ و موبایل)"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:63
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:34
 msgid "Web Vital Usage"
 msgstr "مصرف وب وایتال"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:144
-msgid "Sorry, your domain has no subscription yet."
-msgstr "با عرض پوزش، دامنه شما هنوز هیچ اشتراکی ندارد."
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:24
+msgid "Coins"
+msgstr "سکه"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:86
+msgid "Plan can not be empty, please select a plan first."
+msgstr "پلن نمی تواند خالی باشد، لطفاً ابتدا یک پلن را انتخاب کنید."
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:104
+msgid "Selected plan not found."
+msgstr "پلن انتخابی یافت نشد."
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:42
+msgid "Actions"
+msgstr "عملیات"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:46
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:65
+msgid "Token"
+msgstr "توکن"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:57
+msgid "Usage IDs"
+msgstr "شناسه‌های استفاده"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:61
+msgid "Usages Status"
+msgstr "وضعیت استفاده‌ها"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:75
+msgid "Page"
+msgstr "صفحه"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:200
+msgid "Your Request is valid."
+msgstr "درخواست شما معتبر است."
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:207
+msgid "Can not detect your domain. please contact us."
+msgstr "نمی‌توانیم دامنه‌ شما را شناسایی کنیم، لطفا با ما تماس بگیرید."
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:241
+msgid "Usages statuses changed successfully."
+msgstr "وضعیت استفاده‌ها با موفقیت تغییر کرد."
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:244
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:307
+msgid "Your request is not valid and requested route does not exists."
+msgstr ""
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:285
+msgid "Usages added successfully."
+msgstr "موارد استفاده با موفقیت اضافه شد."
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:291
+msgid "Can not add usage for requested domain."
+msgstr ""
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:295
+msgid "Can not calculate your requested actions coin amount."
+msgstr ""
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:299
+msgid "Seems the domain has no valid subscription."
+msgstr "به نظر می‌رسد که دامنه شما اشتراک فعالی ندارد."
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:28
 msgid "Optimization Manager Subscription Setting"
@@ -292,9 +364,6 @@ msgstr "سطح ۲"
 #~ msgid "Order Total"
 #~ msgstr "مبلغ سفارش"
 
-#~ msgid "Order Status"
-#~ msgstr "وضعیت سفارش"
-
 #~ msgid "Order Type"
 #~ msgstr "نوع سفارش"
 
@@ -310,17 +379,11 @@ msgstr "سطح ۲"
 #~ msgid "Evaluations"
 #~ msgstr "اندازه گیری‌ها"
 
-#~ msgid "Page"
-#~ msgstr "صفحه"
-
 #~ msgid "URL"
 #~ msgstr "پیوند"
 
 #~ msgid "Inactive"
 #~ msgstr "غیر فعال"
-
-#~ msgid "Active"
-#~ msgstr "فعال"
 
 #~ msgid "Ignored"
 #~ msgstr "رها شده"
@@ -400,9 +463,6 @@ msgstr "سطح ۲"
 #~ msgid "You dont have valid budget"
 #~ msgstr "شما هیچ بودجه‌ای ندارید"
 
-#~ msgid "Your request is not valid"
-#~ msgstr "درخواست شما معتبر نیست"
-
 #~ msgid "Domain not valid"
 #~ msgstr "دامنه معتبر نیست"
 
@@ -411,11 +471,6 @@ msgstr "سطح ۲"
 
 #~ msgid "Domain is not valid."
 #~ msgstr "دامنه معتبر نیست."
-
-#, fuzzy
-#~| msgid "Page added successfully."
-#~ msgid "Pages added successfully."
-#~ msgstr "صفحه با موفقیت اضافه شد."
 
 #, fuzzy
 #~| msgid "Your budget is not enough to do this."
@@ -430,9 +485,6 @@ msgstr "سطح ۲"
 
 #~ msgid "Requested page not exits."
 #~ msgstr "صفحه درخواستی وجود ندارد."
-
-#~ msgid "Page status changed successfully."
-#~ msgstr "وضعیت صفحه با موفقیت به تغییر کرد."
 
 #~ msgid "Parameters is not valid."
 #~ msgstr "پارامتر‌های ارسالی معتبر نیستند."
