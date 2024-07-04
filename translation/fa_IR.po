@@ -725,7 +725,7 @@ msgstr "سطح ۲"
 #~ msgstr "جزئیات درخواست"
 
 #~ msgid "PMPR Plugin"
-#~ msgstr "افزونه مهندس محمدپور"
+#~ msgstr "افزونه دکتر محمدپور"
 
 #~ msgid "I do not want to receive a discount"
 #~ msgstr "مایل به دریافت تخفیف نیستم"
