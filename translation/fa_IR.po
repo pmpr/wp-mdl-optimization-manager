@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization Manager\n"
-"POT-Creation-Date: 2024-06-30 16:28+0330\n"
-"PO-Revision-Date: 2024-06-30 16:33+0330\n"
+"POT-Creation-Date: 2024-07-04 13:59+0330\n"
+"PO-Revision-Date: 2024-07-04 13:59+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -156,30 +156,40 @@ msgstr "آیتم‌ها"
 msgid "Icon"
 msgstr "آیکون"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:79
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:114
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:64
+#, php-format
+msgid "%s has successfully subscribed to %s."
+msgstr ""
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:76
+#, php-format
+msgid "Your domain already subscribed and can not subscribe to %s"
+msgstr ""
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:105
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:141
 #, php-format
 msgid "Something wrong on adding %s to cart, please try again."
 msgstr "مشکلی در افزودن %s به سبد خرید وجود دارد، لطفاً دوباره امتحان کنید."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:80
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:106
 msgid "subscription"
 msgstr "اشتراک"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:92
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:119
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:43
 msgid "Plan"
 msgstr "پلن"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:115
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:142
 msgid "coins"
 msgstr "سکه‌"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:126
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:153
 msgid "Extra Variation"
 msgstr "انواع سکه اضافی"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:136
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:163
 msgid "Invalid order type"
 msgstr ""
 
@@ -264,6 +274,11 @@ msgstr "لطفا یک مقدار سکه انتخاب کنید."
 #: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/Page/Pricing.php:38
 msgid "Please select a your order type."
 msgstr "لطفا نوع سفارش خود را مشخص کنید."
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Extra.php:40
+#, php-format
+msgid "%s coins"
+msgstr "%s سکه"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:24
 msgid "Subscriptions"
