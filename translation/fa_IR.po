@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization Manager\n"
-"POT-Creation-Date: 2024-07-04 13:59+0330\n"
-"PO-Revision-Date: 2024-07-04 14:53+0330\n"
+"POT-Creation-Date: 2024-07-06 01:05+0330\n"
+"PO-Revision-Date: 2024-07-06 01:05+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -30,29 +30,6 @@ msgstr "مشتریان"
 msgid "Optimization Manager"
 msgstr "م افزایش سرعت"
 
-#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:71
-msgid "Can not find order or order item."
-msgstr "نمی توانم سفارش را پیدا کنم."
-
-#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:89
-#: src/Pmpr/Module/OptimizationManager/Product.php:177
-#, php-format
-msgid "Can not create opt domain: %s"
-msgstr "قارد به ایجاد دامنه افزایش سرعت نیستیم: %s"
-
-#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:165
-#, php-format
-msgid "Budget with level %s and value %s added successfully."
-msgstr ""
-
-#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:171
-msgid "Budget with requested data already exist."
-msgstr ""
-
-#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:175
-msgid "Domain is require to add a budget."
-msgstr ""
-
 #: src/Pmpr/Module/OptimizationManager/Product.php:98
 #, php-format
 msgid ""
@@ -62,6 +39,11 @@ msgstr ""
 #: src/Pmpr/Module/OptimizationManager/Product.php:104
 msgid "No variations selected"
 msgstr "هیج متغییری انتخاب نشده است"
+
+#: src/Pmpr/Module/OptimizationManager/Product.php:177
+#, php-format
+msgid "Can not create opt domain: %s"
+msgstr "قارد به ایجاد دامنه افزایش سرعت نیستیم: %s"
 
 #: src/Pmpr/Module/OptimizationManager/Product.php:232
 msgid "Budget can't be add, some require fields not set."
@@ -252,12 +234,12 @@ msgid "Validity Duration"
 msgstr "مدت اعتبار"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/MultistepForm.php:86
-msgid "Critical CSS"
-msgstr "استایل‌های ضروری"
+msgid "Extract Critical CSS"
+msgstr "استخراج استایل‌ ضروری"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/MultistepForm.php:87
-msgid "Web Vital"
-msgstr "وب وایتال"
+msgid "Extract LCP Item"
+msgstr "استخراج عنصر LCP"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/Page/Pricing.php:26
 msgid "Pricing"
@@ -398,6 +380,12 @@ msgstr "سطح ۱"
 #: src/Pmpr/Module/OptimizationManager/Traits/CommonTrait.php:23
 msgid "Level 2"
 msgstr "سطح ۲"
+
+#~ msgid "Can not find order or order item."
+#~ msgstr "نمی توانم سفارش را پیدا کنم."
+
+#~ msgid "Web Vital"
+#~ msgstr "وب وایتال"
 
 #~ msgid "Level"
 #~ msgstr "سطح"
