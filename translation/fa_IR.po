@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization Manager\n"
-"POT-Creation-Date: 2024-07-06 01:05+0330\n"
-"PO-Revision-Date: 2024-07-06 01:05+0330\n"
+"POT-Creation-Date: 2024-07-09 00:58+0330\n"
+"PO-Revision-Date: 2024-07-09 01:00+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -175,23 +175,23 @@ msgstr "انواع سکه اضافی"
 msgid "Invalid order type"
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:98
+#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:99
 msgid "Number of Coins"
 msgstr "تعداد سکه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:102
+#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:103
 msgid "Expiration Date"
 msgstr "تاریخ انقضا"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:103
+#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:104
 msgid "Have Not"
 msgstr "ندارد"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:106
+#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:107
 msgid "The ability to transfer to a new plan"
 msgstr "قابل انتقال به پلن جدید"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:107
+#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:108
 msgid "Has It"
 msgstr "هست"
 
@@ -212,6 +212,7 @@ msgid "Buy extra coins"
 msgstr "خرید سکه اضافی"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/MultistepForm.php:70
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:97
 #, php-format
 msgid "%s coin"
 msgstr "%s سکه"
@@ -224,22 +225,6 @@ msgstr "%s تخفیف"
 #: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/MultistepForm.php:72
 msgid "Services Cost"
 msgstr "هزینه خدمات"
-
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/MultistepForm.php:76
-msgid "Initial Coin"
-msgstr "تعداد سکه اولیه"
-
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/MultistepForm.php:81
-msgid "Validity Duration"
-msgstr "مدت اعتبار"
-
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/MultistepForm.php:86
-msgid "Extract Critical CSS"
-msgstr "استخراج استایل‌ ضروری"
-
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/MultistepForm.php:87
-msgid "Extract LCP Item"
-msgstr "استخراج عنصر LCP"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/Page/Pricing.php:26
 msgid "Pricing"
@@ -262,33 +247,49 @@ msgstr "لطفا نوع سفارش خود را مشخص کنید."
 msgid "%s coins"
 msgstr "%s سکه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:24
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:25
 msgid "Subscriptions"
 msgstr "اشتراک‌ها"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:38
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:39
 msgid "Only the first coin type rule is included in the subscription process."
 msgstr "فقط اولین قاعده از نوع سکه در فرآیند پردازش اشتراک لحاظ می‌شود."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:43
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:51
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:44
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:52
 msgid "Coin"
 msgstr "سکه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:57
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:58
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:34
 msgid "Critical CSS Usage"
 msgstr "مصرف استایل ضروری"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:58
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:64
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:59
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:65
 msgid "For all devices(Desktop & Mobile)"
 msgstr "برای همه دستگاه‌ها (دسکتاپ و موبایل)"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:63
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:64
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:39
 msgid "Web Vital Usage"
 msgstr "مصرف وب وایتال"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:101
+msgid "Initial Coin"
+msgstr "سکه اولیه"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:106
+msgid "Subscription Period"
+msgstr "دوره اشتراک"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:114
+msgid "Critical CSS"
+msgstr "استایل‌ ضروری"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:118
+msgid "Improve LCP"
+msgstr "بهبود LCP"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:24
 msgid "Coins"
@@ -327,36 +328,36 @@ msgstr "وضعیت استفاده‌ها"
 msgid "Page"
 msgstr "صفحه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:197
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:212
 msgid "Your Request is valid."
 msgstr "درخواست شما معتبر است."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:204
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:219
 msgid "Can not detect your domain. please contact us."
 msgstr "نمی‌توانیم دامنه‌ شما را شناسایی کنیم، لطفا با ما تماس بگیرید."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:238
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:253
 msgid "Usages statuses changed successfully."
 msgstr "وضعیت استفاده‌ها با موفقیت تغییر کرد."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:241
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:304
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:256
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:319
 msgid "Your request is not valid and requested route does not exists."
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:282
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:297
 msgid "Usages added successfully."
 msgstr "موارد استفاده با موفقیت اضافه شد."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:288
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:303
 msgid "Can not add usage for requested domain."
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:292
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:307
 msgid "Can not calculate your requested actions coin amount."
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:296
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:311
 msgid "Seems the domain has no valid subscription."
 msgstr "به نظر می‌رسد که دامنه شما اشتراک فعالی ندارد."
 
@@ -380,6 +381,15 @@ msgstr "سطح ۱"
 #: src/Pmpr/Module/OptimizationManager/Traits/CommonTrait.php:23
 msgid "Level 2"
 msgstr "سطح ۲"
+
+#~ msgid "Validity Duration"
+#~ msgstr "مدت اعتبار"
+
+#~ msgid "Extract Critical CSS"
+#~ msgstr "استخراج استایل‌ ضروری"
+
+#~ msgid "Extract LCP Item"
+#~ msgstr "استخراج عنصر LCP"
 
 #~ msgid "Can not find order or order item."
 #~ msgstr "نمی توانم سفارش را پیدا کنم."
