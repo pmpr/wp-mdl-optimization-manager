@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization Manager\n"
-"POT-Creation-Date: 2024-07-09 00:58+0330\n"
-"PO-Revision-Date: 2024-07-09 01:00+0330\n"
+"POT-Creation-Date: 2024-07-09 08:46+0330\n"
+"PO-Revision-Date: 2024-07-09 08:46+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "Customers"
 msgstr "مشتریان"
 
-#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:21
+#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:19
 msgid "Optimization Manager"
 msgstr "م افزایش سرعت"
 
@@ -146,7 +146,7 @@ msgstr ""
 #: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:76
 #, php-format
 msgid "Your domain already subscribed and can not subscribe to %s"
-msgstr ""
+msgstr "دامنه شما قبلاً مشترک شده است و نمی توانید در %s مشترک شوید"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:105
 #: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:141
