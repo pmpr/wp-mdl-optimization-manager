@@ -4,4 +4,4 @@
     |             668f1c0e6e17c             |
     |_______________________________________|
 */
- use Pmpr\Module\OptimizationManager\OptimizationManager; OptimizationManager::symcgieuakksimmu();
+ namespace Pmpr\Module\OptimizationManager\Ticket; use Pmpr\Module\OptimizationManager\Container; abstract class Common extends Container { }
