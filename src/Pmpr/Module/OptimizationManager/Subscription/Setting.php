@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             669ada84df097             |
+    |             669c38b3da912             |
     |_______________________________________|
 */
- namespace Pmpr\Module\OptimizationManager\Subscription; use Pmpr\Common\Subscription\Setting as BaseClass; use Pmpr\Module\OptimizationManager\Subscription\Traits\EngineTrait; class Setting extends BaseClass { use EngineTrait; public function qiccuiwooiquycsg() { parent::qiccuiwooiquycsg(); $this->id .= "\x5f\x73\165\142"; $this->hasLicense = false; } public function wyyuauosmqoeucmg() { $this->igiywquyccyiaucw(self::qescuiwgsyuikume, __("\x4f\160\x74\151\155\151\172\x61\164\151\x6f\x6e\x20\115\141\156\x61\x67\x65\162\x20\123\x75\142\x73\143\162\x69\160\x74\151\x6f\x6e\40\123\x65\x74\x74\x69\156\147", PR__MDL__OPTIMIZATION_MANAGER))->igiywquyccyiaucw(self::qsegwakiwaiyimyy, __("\x53\x75\142\x73\x63\162\151\x70\164\151\157\x6e\40\123\145\x74\164\151\156\147", PR__MDL__OPTIMIZATION_MANAGER)); } }
+ namespace Pmpr\Module\OptimizationManager\Subscription; use Pmpr\Common\Subscription\Setting as BaseClass; use Pmpr\Module\OptimizationManager\Subscription\Traits\EngineTrait; class Setting extends BaseClass { use EngineTrait; public function qiccuiwooiquycsg() { parent::qiccuiwooiquycsg(); $this->id .= "\137\163\165\x62"; $this->hasLicense = false; } public function wyyuauosmqoeucmg() { $this->igiywquyccyiaucw(self::qescuiwgsyuikume, __("\117\x70\164\x69\x6d\x69\x7a\x61\x74\151\x6f\156\40\x4d\x61\156\141\147\145\x72\40\x53\x75\x62\x73\x63\x72\151\160\x74\151\x6f\156\x20\x53\145\164\164\x69\156\x67", PR__MDL__OPTIMIZATION_MANAGER))->igiywquyccyiaucw(self::qsegwakiwaiyimyy, __("\123\x75\x62\163\143\162\151\160\x74\151\x6f\156\x20\123\x65\164\x74\151\x6e\x67", PR__MDL__OPTIMIZATION_MANAGER)); } }
