@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization Manager\n"
-"POT-Creation-Date: 2024-07-12 17:10+0330\n"
-"PO-Revision-Date: 2024-07-12 17:12+0330\n"
+"POT-Creation-Date: 2024-08-17 16:16+0330\n"
+"PO-Revision-Date: 2024-08-17 16:18+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -26,169 +26,211 @@ msgstr ""
 msgid "Customers"
 msgstr "مشتریان"
 
+#: src/Pmpr/Module/OptimizationManager/Frontend/Request.php:17
+msgid "Optimization Module Request Page"
+msgstr "صفحه درخواست ماژول افزایش سرعت"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:21
+msgid "Wordpress Optimization"
+msgstr "افزایش سرعت وردپرس"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:58
+#: src/Pmpr/Module/OptimizationManager/Setting.php:57
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:59
+msgid "General configuration"
+msgstr "پیکربندی عمومی"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:63
+msgid "Title & Description"
+msgstr "عنوان و شرح"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:66
+msgid "Page Title"
+msgstr "عنوان صفحه"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:67
+msgid "Leve empty if you want use page's own title."
+msgstr "اگر می‌خواهید از عنوان خود صفحه استفاده شود، خالی رها کنید."
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:71
+msgid "Page Description"
+msgstr "شرح صفحه"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:78
+msgid "Subscription"
+msgstr "اشتراک‌"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:79
+msgid "Subscription purchase card"
+msgstr "کارد خرید اشتراک"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:83
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:99
+msgid "Card"
+msgstr "کارد"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:87
+msgid "Image"
+msgstr "تصویر"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:94
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:104
+msgid "Campaigns"
+msgstr "کمپین‌ها"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:95
+msgid "Campaigns card"
+msgstr "کارد کمپین‌ها"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:124
+msgid "Enable Card"
+msgstr "فعال‌سازی کارد"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:127
+#: src/Pmpr/Module/OptimizationManager/Setting.php:100
+#: src/Pmpr/Module/OptimizationManager/Setting.php:112
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:130
+#: src/Pmpr/Module/OptimizationManager/Setting.php:104
+msgid "Description"
+msgstr "شرح"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:133
+msgid "Promotion Text"
+msgstr "متن پروموشن"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:136
+msgid "Action Link"
+msgstr "لینک اکشن"
+
+#: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:139
+msgid "Action Text"
+msgstr "متن اکشن"
+
 #: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:20
 msgid "Optimization Manager"
 msgstr "م افزایش سرعت"
 
-#: src/Pmpr/Module/OptimizationManager/Product.php:98
-#, php-format
-msgid ""
-"domain %s, already has free version, please add more variation to continue"
-msgstr ""
-
-#: src/Pmpr/Module/OptimizationManager/Product.php:104
-msgid "No variations selected"
-msgstr "هیج متغییری انتخاب نشده است"
-
-#: src/Pmpr/Module/OptimizationManager/Product.php:177
-#, php-format
-msgid "Can not create opt domain: %s"
-msgstr "قارد به ایجاد دامنه افزایش سرعت نیستیم: %s"
-
-#: src/Pmpr/Module/OptimizationManager/Product.php:232
-msgid "Budget can't be add, some require fields not set."
-msgstr "برخی پارامتر‌های ضروری برای ایجاد بودجه یافت نشد."
-
-#: src/Pmpr/Module/OptimizationManager/Product.php:301
-msgid "Start Date is not a valid date."
-msgstr "تاریخ شروع استفاده از بودجه معتبر نیست."
-
-#: src/Pmpr/Module/OptimizationManager/Product.php:302
-msgid "Please fill start date."
-msgstr "لطفا تاریخ شروع استفاده از بودجه را مشخص کنید."
-
-#: src/Pmpr/Module/OptimizationManager/Product.php:303
-msgid "You Can not use passed date for start date."
-msgstr "شما نمی‌توانید از تاریخ‌های گذشته برای تاریخ شروع بودجه استفاده کنید."
-
-#: src/Pmpr/Module/OptimizationManager/Product.php:356
-msgid "Start Budget Date"
-msgstr "تاریخ شروع استفاده از بودجه"
-
-#: src/Pmpr/Module/OptimizationManager/Setting.php:42
-msgid "Module Setting"
-msgstr "تنظیمات ماژول"
-
-#: src/Pmpr/Module/OptimizationManager/Setting.php:43
+#: src/Pmpr/Module/OptimizationManager/Setting.php:36
 msgid "Optimization Manager Setting"
 msgstr "تنظیمات مدیریت افزایش سرعت"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:63
-msgid "General"
-msgstr "عمومی"
+#: src/Pmpr/Module/OptimizationManager/Setting.php:37
+msgid "Module Setting"
+msgstr "تنظیمات ماژول"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:64
+#: src/Pmpr/Module/OptimizationManager/Setting.php:58
 msgid "General Configuration"
 msgstr "پیکربندی عمومی"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:68
+#: src/Pmpr/Module/OptimizationManager/Setting.php:62
 msgid "Config"
 msgstr "پیکربندی"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:72
+#: src/Pmpr/Module/OptimizationManager/Setting.php:66
+msgid "WP Speed Page"
+msgstr "صفحه افزایش سرعت وردپرس"
+
+#: src/Pmpr/Module/OptimizationManager/Setting.php:71
 msgid "Related Component"
 msgstr "کامپوننت مرتبط"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:76
+#: src/Pmpr/Module/OptimizationManager/Setting.php:75
 msgid "Free Variation Alert"
 msgstr "اعلان نسخه رایگان"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:81
+#: src/Pmpr/Module/OptimizationManager/Setting.php:80
 msgid "VirtualBrowser Apps"
 msgstr "اپ‌های مربوط به Virtual Browser"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:82
+#: src/Pmpr/Module/OptimizationManager/Setting.php:81
 msgid "Used for extract critical css and other remote optimizations."
 msgstr "برای استخراج استایل ضروری و سایر بهینه سازی های ریموت استفاده می شود."
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:85
+#: src/Pmpr/Module/OptimizationManager/Setting.php:84
 msgid "App name"
 msgstr "نام اپلیکیشن"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:86
+#: src/Pmpr/Module/OptimizationManager/Setting.php:85
 msgid "Write full url"
 msgstr "آدرس کامل را بنویسید"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:90
+#: src/Pmpr/Module/OptimizationManager/Setting.php:89
 msgid "App Token"
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:91
+#: src/Pmpr/Module/OptimizationManager/Setting.php:90
 msgid "Use for communication between pmpr & remote app"
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:98
+#: src/Pmpr/Module/OptimizationManager/Setting.php:97
 msgid "Statistics"
 msgstr "آمار و ارقام"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:101
-#: src/Pmpr/Module/OptimizationManager/Setting.php:113
-msgid "Title"
-msgstr "عنوان"
-
-#: src/Pmpr/Module/OptimizationManager/Setting.php:105
-msgid "Description"
-msgstr "شرح"
-
-#: src/Pmpr/Module/OptimizationManager/Setting.php:110
+#: src/Pmpr/Module/OptimizationManager/Setting.php:109
 msgid "Items"
 msgstr "آیتم‌ها"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:117
+#: src/Pmpr/Module/OptimizationManager/Setting.php:116
 msgid "Icon"
 msgstr "آیکون"
 
+#: src/Pmpr/Module/OptimizationManager/Setting.php:125
+msgid "Installation Request"
+msgstr "درخواست نصب"
+
 #: src/Pmpr/Module/OptimizationManager/Setting.php:126
-msgid "Ticket"
-msgstr "تیکت"
+msgid "Configure Multistep"
+msgstr "پیکربندی مالتی‌استپ"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:127
-msgid "Configure Ticket"
-msgstr "پیکربندی تیکت"
-
-#: src/Pmpr/Module/OptimizationManager/Setting.php:131
+#: src/Pmpr/Module/OptimizationManager/Setting.php:130
 msgid "Request Page"
 msgstr "صفحه درخواست"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:135
+#: src/Pmpr/Module/OptimizationManager/Setting.php:134
 #: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:75
 msgid "Page"
 msgstr "صفحه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:63
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:70
 #, php-format
 msgid "%s has successfully subscribed to %s."
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:75
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:82
 #, php-format
 msgid "Your domain already subscribed and can not subscribe to %s"
 msgstr "دامنه شما قبلاً مشترک شده است و نمی توانید در %s مشترک شوید"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:104
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:140
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:112
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:150
 #, php-format
 msgid "Something wrong on adding %s to cart, please try again."
 msgstr "مشکلی در افزودن %s به سبد خرید وجود دارد، لطفاً دوباره امتحان کنید."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:105
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:113
 msgid "subscription"
 msgstr "اشتراک"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:118
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:126
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:43
 msgid "Plan"
 msgstr "پلن"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:141
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:151
 msgid "coins"
 msgstr "سکه‌"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:152
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:162
 msgid "Extra Variation"
 msgstr "انواع سکه اضافی"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:162
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:172
 msgid "Invalid order type"
 msgstr "نوع سفارش نامعتبر است"
 
@@ -228,42 +270,42 @@ msgstr "لطفا یک مقدار سکه انتخاب کنید."
 msgid "Please select a your order type."
 msgstr "لطفا نوع سفارش خود را مشخص کنید."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:42
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:44
 msgid "Buy a subscription"
 msgstr "خرید اشتراک"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:46
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:48
 msgid "Buy extra coins"
 msgstr "خرید سکه اضافی"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:55
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:57
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:97
 #, php-format
 msgid "%s coin"
 msgstr "%s سکه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:56
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:58
 #, php-format
 msgid "%s OFF"
 msgstr "%s تخفیف"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:57
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:59
 msgid "Services Cost"
 msgstr "هزینه خدمات"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:77
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:79
 msgid "Choice Order Type"
 msgstr "انتخاب نوع سفارش"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:78
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:80
 msgid "User should determine what kind of product he/she needs."
 msgstr "کاربر باید تعیین کند که به چه نوع محصولی نیاز دارد."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:87
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:89
 msgid "Choice Order"
 msgstr "انتخاب سفارش"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:88
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:90
 msgid "User should determine what product he/she needs."
 msgstr "کاربر باید مشخص کند که به چه محصولی نیاز دارد."
 
@@ -349,44 +391,52 @@ msgstr "شناسه‌های استفاده"
 msgid "Usages Status"
 msgstr "وضعیت استفاده‌ها"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:212
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:211
 msgid "Your Request is valid."
 msgstr "درخواست شما معتبر است."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:219
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:218
 msgid "Can not detect your domain. please contact us."
 msgstr "نمی‌توانیم دامنه‌ شما را شناسایی کنیم، لطفا با ما تماس بگیرید."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:253
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:252
 msgid "Usages statuses changed successfully."
 msgstr "وضعیت استفاده‌ها با موفقیت تغییر کرد."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:256
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:319
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:255
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:318
 msgid "Your request is not valid and requested route does not exists."
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:297
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:296
 msgid "Usages added successfully."
 msgstr "موارد استفاده با موفقیت اضافه شد."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:303
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:302
 msgid "Can not add usage for requested domain."
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:307
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:306
 msgid "Can not calculate your requested actions coin amount."
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:311
+#: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:310
 msgid "Seems the domain has no valid subscription."
 msgstr "به نظر می‌رسد که دامنه شما اشتراک فعالی ندارد."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:26
+#: src/Pmpr/Module/OptimizationManager/Subscription/Security.php:36
+msgid "Pricing Multistep"
+msgstr "مالتی‌استپ قیمت‌گذاری"
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Security.php:37
+msgid "Enable reCAPTCHA for pricing page's multistep."
+msgstr ""
+
+#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:20
 msgid "Optimization Manager Subscription Setting"
 msgstr "تنظیمات اشتراک مدیریت افزایش سرعت"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:27
+#: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:21
 msgid "Subscription Setting"
 msgstr "تنظیمات اشتراک"
 
@@ -395,42 +445,6 @@ msgstr "تنظیمات اشتراک"
 msgid "Purchased for %s domain"
 msgstr "خریداری شده برای دامنه %s"
 
-#: src/Pmpr/Module/OptimizationManager/Ticket/Frontend/Request.php:17
-msgid "Optimization Module Request Page"
-msgstr "صفحه درخواست ماژول افزایش سرعت"
-
-#: src/Pmpr/Module/OptimizationManager/Ticket/Frontend/RequestMultistep.php:38
-msgid "Check Setup Serial"
-msgstr "بررسی سریال نصب"
-
-#: src/Pmpr/Module/OptimizationManager/Ticket/Frontend/RequestMultistep.php:39
-msgid "User should insert his/her setup serial."
-msgstr "کاربر باید سریال نصب خود را وارد کند."
-
-#: src/Pmpr/Module/OptimizationManager/Ticket/Frontend/RequestMultistep.php:48
-msgid "Show Requirements"
-msgstr "نمایش نیازمندی‌ها"
-
-#: src/Pmpr/Module/OptimizationManager/Ticket/Frontend/RequestMultistep.php:49
-msgid "Show setup requirements to user."
-msgstr "نمایش موارد ضروری برای نصب به کاربر."
-
-#: src/Pmpr/Module/OptimizationManager/Ticket/Frontend/RequestMultistep.php:58
-msgid "Setup Required information"
-msgstr "اطلاعات ضروری برای نصب"
-
-#: src/Pmpr/Module/OptimizationManager/Ticket/Frontend/RequestMultistep.php:59
-msgid "User should give his/her sites requirements."
-msgstr "کاربر باید موارد ضروری برای دسترسی به سایت خود را بدهد."
-
-#: src/Pmpr/Module/OptimizationManager/Ticket/Frontend/RequestMultistep.php:68
-msgid "Consent"
-msgstr "رضایت نامه"
-
-#: src/Pmpr/Module/OptimizationManager/Ticket/Frontend/RequestMultistep.php:69
-msgid "User should consent terms of use."
-msgstr "کاربر باید با شرایط استفاده موافقت کند."
-
 #: src/Pmpr/Module/OptimizationManager/Traits/CommonTrait.php:22
 msgid "Level 1"
 msgstr "سطح ۱"
@@ -438,6 +452,54 @@ msgstr "سطح ۱"
 #: src/Pmpr/Module/OptimizationManager/Traits/CommonTrait.php:23
 msgid "Level 2"
 msgstr "سطح ۲"
+
+#~ msgid "No variations selected"
+#~ msgstr "هیج متغییری انتخاب نشده است"
+
+#~ msgid "Can not create opt domain: %s"
+#~ msgstr "قارد به ایجاد دامنه افزایش سرعت نیستیم: %s"
+
+#~ msgid "Budget can't be add, some require fields not set."
+#~ msgstr "برخی پارامتر‌های ضروری برای ایجاد بودجه یافت نشد."
+
+#~ msgid "Start Date is not a valid date."
+#~ msgstr "تاریخ شروع استفاده از بودجه معتبر نیست."
+
+#~ msgid "Please fill start date."
+#~ msgstr "لطفا تاریخ شروع استفاده از بودجه را مشخص کنید."
+
+#~ msgid "You Can not use passed date for start date."
+#~ msgstr "شما نمی‌توانید از تاریخ‌های گذشته برای تاریخ شروع بودجه استفاده کنید."
+
+#~ msgid "Start Budget Date"
+#~ msgstr "تاریخ شروع استفاده از بودجه"
+
+#~ msgid "Ticket"
+#~ msgstr "تیکت"
+
+#~ msgid "Check Setup Serial"
+#~ msgstr "بررسی سریال نصب"
+
+#~ msgid "User should insert his/her setup serial."
+#~ msgstr "کاربر باید سریال نصب خود را وارد کند."
+
+#~ msgid "Show Requirements"
+#~ msgstr "نمایش نیازمندی‌ها"
+
+#~ msgid "Show setup requirements to user."
+#~ msgstr "نمایش موارد ضروری برای نصب به کاربر."
+
+#~ msgid "Setup Required information"
+#~ msgstr "اطلاعات ضروری برای نصب"
+
+#~ msgid "User should give his/her sites requirements."
+#~ msgstr "کاربر باید موارد ضروری برای دسترسی به سایت خود را بدهد."
+
+#~ msgid "Consent"
+#~ msgstr "رضایت نامه"
+
+#~ msgid "User should consent terms of use."
+#~ msgstr "کاربر باید با شرایط استفاده موافقت کند."
 
 #~ msgid "Validity Duration"
 #~ msgstr "مدت اعتبار"
@@ -467,9 +529,6 @@ msgstr "سطح ۲"
 
 #~ msgid "Display on subscription products page."
 #~ msgstr "نمایش در صفحه محصولات اشتراک."
-
-#~ msgid "Pricing Page"
-#~ msgstr "صفحه قیمت‌گذاری"
 
 #~ msgid "To buy this product, please proceed through the %s."
 #~ msgstr "برای خرید این محصول لطفا از طریق %s اقدام کنید."
@@ -590,9 +649,6 @@ msgstr "سطح ۲"
 
 #~ msgid "Service unavailable right now."
 #~ msgstr "در حال حاضر سرویس در دسترس نیست."
-
-#~ msgid "Optimization"
-#~ msgstr "افزایش سرعت"
 
 #~ msgid "Your Optimization Module Budgets"
 #~ msgstr "بودجه‌های ماژول افزایش سرعت شما"
