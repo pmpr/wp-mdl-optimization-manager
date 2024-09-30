@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization Manager\n"
-"POT-Creation-Date: 2024-09-10 16:25+0330\n"
-"PO-Revision-Date: 2024-09-10 16:25+0330\n"
+"POT-Creation-Date: 2024-09-28 15:38+0330\n"
+"PO-Revision-Date: 2024-09-28 15:49+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -166,7 +166,7 @@ msgstr "توکن App"
 
 #: src/Pmpr/Module/OptimizationManager/Setting.php:80
 msgid "Use for communication between pmpr & remote app"
-msgstr ""
+msgstr "برای برقراری ارتباط بین pmpr و remote استفاده می‌شود"
 
 #: src/Pmpr/Module/OptimizationManager/Setting.php:87
 msgid "Statistics"
@@ -197,40 +197,40 @@ msgstr "صفحه درخواست"
 msgid "Page"
 msgstr "صفحه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:73
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:74
 #, php-format
 msgid "%s has successfully subscribed to %s."
 msgstr ""
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:85
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:86
 #, php-format
 msgid "Your domain already subscribed and can not subscribe to %s"
 msgstr "دامنه شما قبلاً مشترک شده است و نمی توانید در %s مشترک شوید"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:115
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:153
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:116
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:154
 #, php-format
 msgid "Something wrong on adding %s to cart, please try again."
 msgstr "مشکلی در افزودن %s به سبد خرید وجود دارد، لطفاً دوباره امتحان کنید."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:116
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:117
 msgid "subscription"
 msgstr "اشتراک"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:129
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:43
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:130
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:45
 msgid "Plan"
 msgstr "پلن"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:154
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:155
 msgid "coins"
 msgstr "سکه‌"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:165
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:166
 msgid "Extra Variation"
 msgstr "انواع سکه اضافی"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:175
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:176
 msgid "Invalid order type"
 msgstr "نوع سفارش نامعتبر است"
 
@@ -309,7 +309,7 @@ msgstr "انتخاب سفارش"
 msgid "User should determine what product he/she needs."
 msgstr "کاربر باید مشخص کند که به چه محصولی نیاز دارد."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Extra.php:41
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Extra.php:43
 #, php-format
 msgid "%s coins"
 msgstr "%s سکه"
@@ -328,7 +328,7 @@ msgid "Coin"
 msgstr "سکه"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:62
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:34
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:36
 msgid "Critical CSS Usage"
 msgstr "مصرف استایل ضروری"
 
@@ -337,6 +337,7 @@ msgid "For all devices(Desktop & Mobile)"
 msgstr "برای همه دستگاه‌ها (دسکتاپ و موبایل)"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:68
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:41
 msgid "Speed Test Usage"
 msgstr "مصرف تست سرعت"
 
@@ -360,23 +361,19 @@ msgstr "استایل‌ ضروری"
 msgid "Speed Test"
 msgstr "تست سرعت"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:24
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:26
 msgid "Coins"
 msgstr "سکه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:29
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:31
 msgid "Period"
 msgstr "دوره"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:39
-msgid "Web Vital Usage"
-msgstr "مصرف وب وایتال"
-
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:94
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:96
 msgid "Plan can not be empty, please select a plan first."
 msgstr "پلن نمی تواند خالی باشد، لطفاً ابتدا یک پلن را انتخاب کنید."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:113
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:115
 msgid "Selected plan not found."
 msgstr "پلن انتخابی یافت نشد."
 
@@ -412,7 +409,7 @@ msgstr "وضعیت استفاده‌ها با موفقیت تغییر کرد."
 #: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:258
 #: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:320
 msgid "Your request is not valid and requested route does not exists."
-msgstr ""
+msgstr "درخواست شما معتبر نیست و مسیر درخواستی وجود ندارد."
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:298
 msgid "Usages added successfully."
@@ -420,11 +417,11 @@ msgstr "موارد استفاده با موفقیت اضافه شد."
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:304
 msgid "Can not add usage for requested domain."
-msgstr ""
+msgstr "نمی‌تواند موارد استفاده برای دامنه درخواستی اضافه کرد."
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:308
 msgid "Can not calculate your requested actions coin amount."
-msgstr ""
+msgstr "نمی توان مقدار سکه اقدامات درخواستی شما را محاسبه کرد."
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:312
 msgid "Seems the domain has no valid subscription."
@@ -450,6 +447,9 @@ msgstr "تنظیمات اشتراک مدیریت افزایش سرعت"
 #, php-format
 msgid "Purchased for %s domain"
 msgstr "خریداری شده برای دامنه %s"
+
+#~ msgid "Web Vital Usage"
+#~ msgstr "مصرف وب وایتال"
 
 #~ msgid "Improve LCP"
 #~ msgstr "بهبود LCP"
