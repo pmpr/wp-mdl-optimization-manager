@@ -1,33 +1,10 @@
 {
-  "name": "pmpr-mdl/wp-mdl-optimization-manager",
-  "type": "project",
-  "license": "proprietary",
-  "description": "Optimization Manager Module for Wordpress",
-  "keywords": [
-    "optimization-manager",
-    "wordpress",
-    "package"
-  ],
-  "require": {
-    "php": ">=8.2",
-    "pmpr-cmn/wp-cmn-foundation": "~1.4",
-    "pmpr-cmn/wp-cmn-subscription": "~1.0"
-  },
   "prod-require": {
     "php": "8.2",
     "wordpress": "6.0",
     "wp-cmn-foundation": "latest",
     "wp-cmn-subscription": "latest"
   },
-  "autoload": {
-    "psr-4": {
-      "Pmpr\\Module\\OptimizationManager\\": "src/Pmpr/Module/OptimizationManager"
-    },
-    "files": [
-      "index.php"
-    ]
-  },
-  "minimum-stability": "dev",
-  "tag": "1.1.67",
-  "timestamp": "1727690691"
+  "tag": "1.1.68",
+  "timestamp": "1728924443"
 }
