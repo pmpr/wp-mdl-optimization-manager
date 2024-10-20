@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization Manager\n"
-"POT-Creation-Date: 2024-09-28 15:38+0330\n"
-"PO-Revision-Date: 2024-09-28 15:49+0330\n"
+"POT-Creation-Date: 2024-10-15 01:38+0330\n"
+"PO-Revision-Date: 2024-10-15 01:39+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: lib\n"
 "X-Poedit-SearchPathExcluded-1: *.js\n"
 
-#: src/Pmpr/Module/OptimizationManager/Admin/Customer.php:23
+#: src/Pmpr/Module/OptimizationManager/Backend/Customer.php:24
 msgid "Customers"
 msgstr "مشتریان"
 
@@ -35,7 +35,7 @@ msgid "Wordpress Optimization"
 msgstr "افزایش سرعت وردپرس"
 
 #: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:57
-#: src/Pmpr/Module/OptimizationManager/Setting.php:47
+#: src/Pmpr/Module/OptimizationManager/Setting.php:45
 msgid "General"
 msgstr "عمومی"
 
@@ -90,13 +90,13 @@ msgid "Enable Card"
 msgstr "فعال‌سازی کارد"
 
 #: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:126
-#: src/Pmpr/Module/OptimizationManager/Setting.php:90
-#: src/Pmpr/Module/OptimizationManager/Setting.php:102
+#: src/Pmpr/Module/OptimizationManager/Setting.php:88
+#: src/Pmpr/Module/OptimizationManager/Setting.php:100
 msgid "Title"
 msgstr "عنوان"
 
 #: src/Pmpr/Module/OptimizationManager/Frontend/WPSpeed.php:129
-#: src/Pmpr/Module/OptimizationManager/Setting.php:94
+#: src/Pmpr/Module/OptimizationManager/Setting.php:92
 msgid "Description"
 msgstr "شرح"
 
@@ -112,7 +112,7 @@ msgstr "لینک اکشن"
 msgid "Action Text"
 msgstr "متن اکشن"
 
-#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:23
+#: src/Pmpr/Module/OptimizationManager/OptimizationManager.php:25
 msgid "Optimization Manager"
 msgstr "م افزایش سرعت"
 
@@ -124,133 +124,133 @@ msgstr "تنظیمات مدیریت افزایش سرعت"
 msgid "Module Setting"
 msgstr "تنظیمات ماژول"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:48
+#: src/Pmpr/Module/OptimizationManager/Setting.php:46
 msgid "General Configuration"
 msgstr "پیکربندی عمومی"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:52
+#: src/Pmpr/Module/OptimizationManager/Setting.php:50
 msgid "Config"
 msgstr "پیکربندی"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:56
+#: src/Pmpr/Module/OptimizationManager/Setting.php:54
 msgid "WP Speed Page"
 msgstr "صفحه افزایش سرعت وردپرس"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:61
+#: src/Pmpr/Module/OptimizationManager/Setting.php:59
 msgid "Related Component"
 msgstr "کامپوننت مرتبط"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:65
+#: src/Pmpr/Module/OptimizationManager/Setting.php:63
 msgid "Free Variation Alert"
 msgstr "اعلان نسخه رایگان"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:70
+#: src/Pmpr/Module/OptimizationManager/Setting.php:68
 msgid "VirtualBrowser Apps"
 msgstr "اپ‌های مربوط به Virtual Browser"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:71
+#: src/Pmpr/Module/OptimizationManager/Setting.php:69
 msgid "Used for extract critical css and other remote optimizations."
 msgstr "برای استخراج استایل ضروری و سایر بهینه سازی های ریموت استفاده می شود."
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:74
+#: src/Pmpr/Module/OptimizationManager/Setting.php:72
 msgid "App name"
 msgstr "نام اپلیکیشن"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:75
+#: src/Pmpr/Module/OptimizationManager/Setting.php:73
 msgid "Write full url"
 msgstr "آدرس کامل را بنویسید"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:79
+#: src/Pmpr/Module/OptimizationManager/Setting.php:77
 msgid "App Token"
 msgstr "توکن App"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:80
+#: src/Pmpr/Module/OptimizationManager/Setting.php:78
 msgid "Use for communication between pmpr & remote app"
 msgstr "برای برقراری ارتباط بین pmpr و remote استفاده می‌شود"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:87
+#: src/Pmpr/Module/OptimizationManager/Setting.php:85
 msgid "Statistics"
 msgstr "آمار و ارقام"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:99
+#: src/Pmpr/Module/OptimizationManager/Setting.php:97
 msgid "Items"
 msgstr "آیتم‌ها"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:106
+#: src/Pmpr/Module/OptimizationManager/Setting.php:104
 msgid "Icon"
 msgstr "آیکون"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:114
+#: src/Pmpr/Module/OptimizationManager/Setting.php:112
 msgid "Installation Request"
 msgstr "درخواست نصب"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:115
+#: src/Pmpr/Module/OptimizationManager/Setting.php:113
 msgid "Configure Multistep"
 msgstr "پیکربندی مالتی‌استپ"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:119
+#: src/Pmpr/Module/OptimizationManager/Setting.php:117
 msgid "Request Page"
 msgstr "صفحه درخواست"
 
-#: src/Pmpr/Module/OptimizationManager/Setting.php:123
+#: src/Pmpr/Module/OptimizationManager/Setting.php:121
 #: src/Pmpr/Module/OptimizationManager/Subscription/REST/Controller.php:77
 msgid "Page"
 msgstr "صفحه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:74
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:75
 #, php-format
 msgid "%s has successfully subscribed to %s."
-msgstr ""
+msgstr "%s با موفقیت در %s مشترک شد."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:86
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:87
 #, php-format
 msgid "Your domain already subscribed and can not subscribe to %s"
 msgstr "دامنه شما قبلاً مشترک شده است و نمی توانید در %s مشترک شوید"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:116
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:154
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:117
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:155
 #, php-format
 msgid "Something wrong on adding %s to cart, please try again."
 msgstr "مشکلی در افزودن %s به سبد خرید وجود دارد، لطفاً دوباره امتحان کنید."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:117
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:118
 msgid "subscription"
 msgstr "اشتراک"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:130
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:45
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:131
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:54
 msgid "Plan"
 msgstr "پلن"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:155
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:156
 msgid "coins"
 msgstr "سکه‌"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:166
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:167
 msgid "Extra Variation"
 msgstr "انواع سکه اضافی"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:176
+#: src/Pmpr/Module/OptimizationManager/Subscription/Ajax.php:177
 msgid "Invalid order type"
 msgstr "نوع سفارش نامعتبر است"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:99
+#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:94
 msgid "Number of Coins"
 msgstr "تعداد سکه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:103
+#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:98
 msgid "Expiration Date"
 msgstr "تاریخ انقضا"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:104
+#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:99
 msgid "Have Not"
 msgstr "ندارد"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:107
+#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:102
 msgid "The ability to transfer to a new plan"
 msgstr "قابل انتقال به پلن جدید"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:108
+#: src/Pmpr/Module/OptimizationManager/Subscription/Engine.php:103
 msgid "Has It"
 msgstr "هست"
 
@@ -270,110 +270,110 @@ msgstr "لطفا یک مقدار سکه انتخاب کنید."
 msgid "Please select a your order type."
 msgstr "لطفا نوع سفارش خود را مشخص کنید."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:45
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:44
 msgid "Buy a subscription"
 msgstr "خرید اشتراک"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:49
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:48
 msgid "Buy extra coins"
 msgstr "خرید سکه اضافی"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:58
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:101
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:57
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:104
 #, php-format
 msgid "%s coin"
 msgstr "%s سکه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:59
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:58
 #, php-format
 msgid "%s OFF"
 msgstr "%s تخفیف"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:60
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:59
 msgid "Services Cost"
 msgstr "هزینه خدمات"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:80
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:79
 msgid "Choice Order Type"
 msgstr "انتخاب نوع سفارش"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:81
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:80
 msgid "User should determine what kind of product he/she needs."
 msgstr "کاربر باید تعیین کند که به چه نوع محصولی نیاز دارد."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:90
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:89
 msgid "Choice Order"
 msgstr "انتخاب سفارش"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:91
+#: src/Pmpr/Module/OptimizationManager/Subscription/Frontend/PricingMultistep.php:90
 msgid "User should determine what product he/she needs."
 msgstr "کاربر باید مشخص کند که به چه محصولی نیاز دارد."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Extra.php:43
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Extra.php:36
 #, php-format
 msgid "%s coins"
 msgstr "%s سکه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:29
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:30
 msgid "Subscriptions"
 msgstr "اشتراک‌ها"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:43
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:44
 msgid "Only the first coin type rule is included in the subscription process."
 msgstr "فقط اولین قاعده از نوع سکه در فرآیند پردازش اشتراک لحاظ می‌شود."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:48
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:56
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:49
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:59
 msgid "Coin"
 msgstr "سکه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:62
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:36
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:65
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:45
 msgid "Critical CSS Usage"
 msgstr "مصرف استایل ضروری"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:63
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:66
 msgid "For all devices(Desktop & Mobile)"
 msgstr "برای همه دستگاه‌ها (دسکتاپ و موبایل)"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:68
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:41
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:71
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:50
 msgid "Speed Test Usage"
 msgstr "مصرف تست سرعت"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:69
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:72
 msgid "For each page"
 msgstr "برای هر صفحه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:105
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:108
 msgid "Initial Coin"
 msgstr "سکه اولیه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:110
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:113
 msgid "Subscription Period"
 msgstr "دوره اشتراک"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:118
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:121
 msgid "Critical CSS"
 msgstr "استایل‌ ضروری"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:122
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Plan.php:125
 msgid "Speed Test"
 msgstr "تست سرعت"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:26
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:35
 msgid "Coins"
 msgstr "سکه"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:31
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:40
 msgid "Period"
 msgstr "دوره"
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:96
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:102
 msgid "Plan can not be empty, please select a plan first."
 msgstr "پلن نمی تواند خالی باشد، لطفاً ابتدا یک پلن را انتخاب کنید."
 
-#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:115
+#: src/Pmpr/Module/OptimizationManager/Subscription/Model/Subscription.php:121
 msgid "Selected plan not found."
 msgstr "پلن انتخابی یافت نشد."
 
@@ -433,7 +433,7 @@ msgstr "مالتی‌استپ قیمت‌گذاری"
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Security.php:37
 msgid "Enable reCAPTCHA for pricing page's multistep."
-msgstr ""
+msgstr "فعال سازی ریکپچا برای صفحه مالتی استپ قیمت گذاری."
 
 #: src/Pmpr/Module/OptimizationManager/Subscription/Setting.php:24
 msgid "Subscription Setting"
