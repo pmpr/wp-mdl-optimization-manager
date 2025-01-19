@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             677fc5806a0ec             |
+    |             678d3d4831ce0             |
     |_______________________________________|
 */
  namespace Pmpr\Module\OptimizationManager\Subscription; class Manager extends Common { }
